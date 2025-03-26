@@ -31,9 +31,9 @@ metadata:
     app.kubernetes.io/name: kuma
     app.kubernetes.io/instance: kuma
 data:
-  tls.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURhekNDQWxPZ0F3SUJBZ0lSQU9sQnpaNmxLcytjOERmRVhhcjlQNkl3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREEwTVRZeE1qUXdOVFJhRncwek5EQTBNVFF4TWpRdwpOVFJhTUIweEd6QVpCZ05WQkFNVEVtdDFiV0V0WTI5dWRISnZiQzF3YkdGdVpUQ0NBU0l3RFFZSktvWklodmNOCkFRRUJCUUFEZ2dFUEFEQ0NBUW9DZ2dFQkFPYitmeXY4UjQwcGQveWFyaVdsOXpoVnFIT1A2MEUrOG1CSmVXL3cKekZYcEFsZ1RJeDZ4aEd3TUxyY21BRkpOQVBjNE5ra2pYZVQ4bHhvQU1Fb1ppcWZyNy90OUZZQ1l3VlhtOXFnRgpXek80UEdzc1pXUUowNHFXNGRMb08rWDdwWXNHSytMVDE5eTkwenZNM1RzRHFHSmtua1pIOUd4cC83M1VUbzB2CmVRYzVoZGpvWDJuajcvK3pONWRvdXZHeFMxNE83dnJNRWZSbysrbmpqOFV4eWdqZnc0SkRJNVJUVllua1p5SEEKcGZJUnVUT3E2K3F4RlhmMEdMb1JqcVgwczRxbDVwd3BKcXA4aVJRSVA1N1dUaEFiMGxOYmRXZHhXanNMOWhXaQpha29PVzhQQ3lRZG95M1JnSVQ1QUsvSnNRUnh3ejdaeXF5TG8zZkp0dWF1b1pVVUNBd0VBQWFPQnNEQ0JyVEFPCkJnTlZIUThCQWY4RUJBTUNCYUF3SFFZRFZSMGxCQll3RkFZSUt3WUJCUVVIQXdFR0NDc0dBUVVGQndNQ01Bd0cKQTFVZEV3RUIvd1FDTUFBd0h3WURWUjBqQkJnd0ZvQVVaWENZcjE3ZGVrZFdEU0FrakcxSWtUbmZwdmN3VFFZRApWUjBSQkVZd1JJSWVhM1Z0WVMxamIyNTBjbTlzTFhCc1lXNWxMbXQxYldFdGMzbHpkR1Z0Z2lKcmRXMWhMV052CmJuUnliMnd0Y0d4aGJtVXVhM1Z0WVMxemVYTjBaVzB1YzNaak1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQUwKYlZsSG9vZ3J3YzgvbEliRVZ5NXNhVTBRQ0VRTEV2TDgwVVNXOG1ZejdPZ0V0cVVDL3JDbENzdTVGTFJvV3JUKwpORUZVTWlVR0N1YTR6M0owQU1pQkZ1NFRvMWtaRXBBRUJqUG4wMWlnTzM0dHA4SnhrZjJ6NGVSYllXMFV2QlArCnRZbHJla2FNOGhNVzVjd1Q4ZmwrT0svZ0ppdlJSUjRpVkhRc200T3BkVmM1QWduYjMvb1BTYVdkaGxsU0NxR0wKQWdHZnpsZ01PVXNsMlU0S0dhWE85elliVXV2d0orTnBMOUpJd1lreGw4cEszTnR1SWR3WCtxMDgxY0ZON0JaRgo5MVFUVkdISU1NNldhMk80UHR0bFhPTEczU0dIWTNIYm9pcFNVcGVaRGtnM0pYREUwUkxtOW9qYU9yb1ZQNTFrCkJvS2NCbTA5ckxUSk5QaGkvaHErCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
-  tls.key: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBNXY1L0sveEhqU2wzL0pxdUphWDNPRldvYzQvclFUN3lZRWw1Yi9ETVZla0NXQk1qCkhyR0ViQXd1dHlZQVVrMEE5emcyU1NOZDVQeVhHZ0F3U2htS3ArdnYrMzBWZ0pqQlZlYjJxQVZiTTdnOGF5eGwKWkFuVGlwYmgwdWc3NWZ1bGl3WXI0dFBYM0wzVE84emRPd09vWW1TZVJrZjBiR24vdmRST2pTOTVCem1GMk9oZgphZVB2LzdNM2wyaTY4YkZMWGc3dStzd1I5R2o3NmVPUHhUSEtDTi9EZ2tNamxGTlZpZVJuSWNDbDhoRzVNNnJyCjZyRVZkL1FZdWhHT3BmU3ppcVhtbkNrbXFueUpGQWcvbnRaT0VCdlNVMXQxWjNGYU93djJGYUpxU2c1Ync4TEoKQjJqTGRHQWhQa0FyOG14QkhIRFB0bktySXVqZDhtMjVxNmhsUlFJREFRQUJBb0lCQUNOMzZuRUhrTGtGS0E1YQpkZWtEL2R6aGtqY0VYendxZlM3NXVUTE9CNklkWUNYRDhuMlJCbU5NejVPQnUwVG4zQUVaMllRTGNTeHErSXllCmdNdXY5bEZvY2ZYc3MvT0dBUkcrb0JzV2ozVjJrWmhuUGI1Sm4vakV5RElKUk1GQWpaKzJOK0RoWkdEWnFPaWkKd1VtQmUwWjRhckVoOVU3OFM2K0xQUENDM0pPV0g5R1lwU3VZS2RIZWU5dWZSTlJCWmFjemhjVldHYUFwZ2xZdwo2cDVGVWJWZHRjdG9kd3A5OEk2dENDOG1PUEFHRTlVSjVpcE16WHZVQU4rRGVsbklwSTh5cWtSTE9jOWZSUG5OClNOR3cwZGhFZVRVMVVadjBTMEFsNUYrZ3dMUVpTYmJhRXF5dUl4emk4L2N0NTJKN2ZjUHoxQUdOUnNJazVhbHQKbENUc0gvVUNnWUVBNmNrUjJsQ21yMHNDdyt4T0JrZmFKRE9aSkt5cm1UMUV0d01OR1dQdDZPVjRBc0cvcnMrZApORUdSQU9mMUVpd1Q1V0UvbWpwT3loYnBzbmIxMExFcjkrYmVCcUxxNXRTWE5ybUdqTmdHdzY5Y3diNWRUYjIrCis3enhxaUgreVllclpVNytOOVdOb2VtTlBWM2hVQVlwd1NjV1ZweHBpWWZydXZrM1k4T3pSV3NDZ1lFQS9QR0gKQnRYS1FUQTNoSzlTOTRmNWNyVG1Eblk1SDZUc1pBd3RSSU5vS0RNUXhUbjB4MWpMN2p3Wmh3blV1N3VqSE83SwpsZkJRbUFuU0ltYTNEaFd0aDNlSkRXajJRSlZnN0t0TDdhdVM3ZkpoZGIwTUJqUGpTTlVHMG5BMjNWeE1FbHdsCnlNL3hnTzFacGUxbUpWdUpTdFEzUFhZWVNSUENqY2xoSXRYMi9BOENnWUI3SWpKTEFHdXFyQ0Y2dS8ya2hUZTYKRllzMXE5UjkwNjFianpuWkE2OE5HYitLQkM1SGpvWklQYmgzOTdRMnJBeVdwZy92MVlJbUlzZFgvaHdlblJLQgpjWkhEZ1Era0lKaThkQjhRRThBTVZWTFBvTXBYNWZhdmRLYjhhd2RkY2gydU1GcnBZWXRGbWxPUDNPQ05XNUdtCmNFWHR2RmhCM2RzbEVacEE2NVNDblFLQmdRRFhlWlZTVUV0MHp2TnNsOEp3MWFlOWZMZENlSm5mQ0NyTWE4Y2cKUjJVeVlaWVd2WEYxWklLTkZ5dVQ2dDhMY2lQWTROODViYmZxWE90aW5PZXlHdXR4ckhYWE02UWJqbVU4R0F5ZAprZnlmc1V3dTlYWEp6dWYrd21LR1lFdU10VFNrcTFVUXhYdnhIY0N4NWhPUEhYUk9oNHZyVXJBTGlNYkM3RnRRClJyK1pKd0tCZ0I3SWNPVmFEM0NWR2lyZ2s0SWluT2lLNDFGazZGQkJOekxWSlNQYWlmZURFMU9pWDU1Q3dnSDYKemgvemdvMGpRSE5Cc0tNUlp1K3FTSjB1akNiNmJhLzF0Rk1RR2tqTEJQem9RN3FYM1U3Z090bWt6cFlXanRGUApMYm9oYTg2Y0xYQU5RZ0syRFZrRkQvc2tYNnJXWCs4enZUM2ZBbmo5RkVGMnA3WlZaZTZkCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
-  ca.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  tls.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURhekNDQWxPZ0F3SUJBZ0lSQUlPUnU3aG5PQ0d4TWRYUUxrUDg5OUF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFZhRncwek5EQTFNREV4TXpRMQpNVFZhTUIweEd6QVpCZ05WQkFNVEVtdDFiV0V0WTI5dWRISnZiQzF3YkdGdVpUQ0NBU0l3RFFZSktvWklodmNOCkFRRUJCUUFEZ2dFUEFEQ0NBUW9DZ2dFQkFNamxpanMyRC9BTThMeUFySlRHZzlkNHdOMDE3WFdlVWg3ZnMzT20KYzZxejU3Rk9Ed0F2U3NRVXFjTmt5R2twbGw5ZVVTYXlsVU9sY0h0Mkp2YzMzU0x5cUkvV084WVRXQktGOWZKRAo4aGFBbmNJd3owNlQ4WXJ5enBSM1pUT0NKQ1lxMTRSRkNOQm1EQnh3S3FpWDR5WVJXRksvcGFXZzVSTlMwc0RHCm5PZ0NoS2xZbmw1WmJqOVlCSVk5RkpyakRLem5MTFc1QXJiMitRWk8wOXdVK3RFanUrNnhjVXBaRW9FMGVSdG4KeERyNnlKTUpPMDQvL2tvVHNxL2VyaVdSMCt1SDExWm15dit0cHhIUVFpYjg1K05GZ2R1RWxqUWZwSWVWazRQTApPV3BZc1RXQy81UmZVMnY5dEFLeUlXaWd0dURUQmNyQk5yYjhuWGZlVDFkNmErTUNBd0VBQWFPQnNEQ0JyVEFPCkJnTlZIUThCQWY4RUJBTUNCYUF3SFFZRFZSMGxCQll3RkFZSUt3WUJCUVVIQXdFR0NDc0dBUVVGQndNQ01Bd0cKQTFVZEV3RUIvd1FDTUFBd0h3WURWUjBqQkJnd0ZvQVV4SC9QMUJ5enhtKzMvME9EQ0JRN0dFSUFaYTh3VFFZRApWUjBSQkVZd1JJSWVhM1Z0WVMxamIyNTBjbTlzTFhCc1lXNWxMbXQxYldFdGMzbHpkR1Z0Z2lKcmRXMWhMV052CmJuUnliMnd0Y0d4aGJtVXVhM1Z0WVMxemVYTjBaVzB1YzNaak1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQWsKaDY3UlpkYm9MVDRsTXIreDNtd3pLdXFQaUFuWkJDcGVlbm9MakZMc0lGOERTR21sYjRORC9NZkh4NkdJL1ljWAo5N1lSZHAzY1pvUjNINDBKUDJ4ODdlM0xVMWJ6YlpZdUFtNVhONjROUytVcit1TndENmNHeEYrTFZsam5MRGsxCk9wcDBSSDJSQjZCZFJ3YlJ4bFBRM05YSVBJaUVKQ2dMZEk2ODZIcVBBbEtBRXhmM3BPeWtaWDE2VFBMa2wxZTEKcHR2bEdROGRTN3F1ZkFlQVY4R01sVFRlVFdOSUFmVkQ1KzlZc21jVFVKOWxCbTF2alBmY3JDTWRJU3hPR3hlMgpYUHRTOWFwSkhDOHJLeTQ3KzBVKzZBK2xMQlZkMXgwMDd6S2JaY2lDMFNYNzczYU1FdmZudENISHI4Z24rdmc1Cm1yNE5QTm5NajluNDdVNlBtV2g5Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+  tls.key: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBeU9XS096WVA4QXp3dklDc2xNYUQxM2pBM1RYdGRaNVNIdCt6YzZaenFyUG5zVTRQCkFDOUt4QlNwdzJUSWFTbVdYMTVSSnJLVlE2VndlM1ltOXpmZEl2S29qOVk3eGhOWUVvWDE4a1B5Rm9DZHdqRFAKVHBQeGl2TE9sSGRsTTRJa0ppclhoRVVJMEdZTUhIQXFxSmZqSmhGWVVyK2xwYURsRTFMU3dNYWM2QUtFcVZpZQpYbGx1UDFnRWhqMFVtdU1Nck9jc3Ria0N0dmI1Qms3VDNCVDYwU083N3JGeFNsa1NnVFI1RzJmRU92cklrd2s3ClRqLytTaE95cjk2dUpaSFQ2NGZYVm1iSy82Mm5FZEJDSnZ6bjQwV0IyNFNXTkIra2g1V1RnOHM1YWxpeE5ZTC8KbEY5VGEvMjBBckloYUtDMjROTUZ5c0UydHZ5ZGQ5NVBWM3ByNHdJREFRQUJBb0lCQVFDTnRvMzZFcnJQWlBGMApwM2dXUXFyQ0ZtWkdKVUpxazlIdUFYTS9BNDNZUHF3VHdMS0lPTlFPMlZ5ZmZycDRwR04weHIyTUJMR1NWR095ClU3aE03OVZJVDlCa0ZvVjN4akY4YjQ3ODVMMGk3bnRhZnIvZCtES05CNVo5MkhORkVHcWJtZUVKWndFK3NKMmUKZWVrOW9GY1ZoV3EraEg0L0JlNVI0VHpWeThUblM0OS9GSm9SNnpxTDhpMzBIN1FxeFNYUXZwRk81R1d3bjZwawpRdGxuOUFZQzQyckU0QkRuditGT3ZlbzhudDhOWEo3eVB3WkFRSVlJQVpkajlWZmxNakVhTE5QdkE4Zy9nUWJOCmZwTFJHNGlmeXBkc2U0RDBEcXlsbGwwN2NMU0lLaGhkUE9xK0ZDWjM0aVdsUkFkZlNnc3lqVGZCY2lOMGhmNUwKYnFUTytuU3hBb0dCQU9EQWNJN29IL0tDSnAwbEV0NUErKzhwQndpcXJFSThtZHZhTVV3akxkbU5HNk9lN1VRQQpFSFh3SVZmUGpKODZxZW9sV3dJZ2ZpZ3JFR1owaGFXK21ZNDd5QnM1TDZvZGhSdWJKSm93Z1BWU24xMmZzcnpQCnMzVk5majVpZWZ1RDJpdUwwa1M5WFBUUDlkWG9QRkp6TGRwMHRqZStZcVg1eEZPZWg2U21za2U5QW9HQkFPVFUKQjRwWkNObW1KeUJ4TG10U0VNRVlLRXRsVmRnU3dwYlBZMWxrRDFyUldrQnNnR0JwNWdtbkVDSm1ua24xR1VKZwpSTkc3Q1pRK1p0VXFsay9iQTRpdGNodnZ1SGVTWmxwZGJEL3FGdGhEK0RrZ1dUTmJmNGRaaHhOS1BYTnBCWHJZCm9XUVlNUzVKOEdGSGxPL1lLMkZBMXdmQnZETTA0NUlneEhtQ0lHd2ZBb0dBQmNac0hmL3c4alpONzdQSUxGWFgKSTJvV2VDNktocGt3Q3Vvc1loeDFUU1hIRkFrOVo0WG81bDdwUEd4azNLS1JReWI2azY5cURuWXMwYlVreWdGLwp5SnZZcEhwdnN4dFhGRUtFU2tIOHpsRDFMMTZ2SlJMaE5aNXNKQVk3eEM2N0tHdExWK0RWeHFTaFdJSERLd3N5Cm5tNXBVRDFnSTR1cmM4cWJDYXdPNExFQ2dZQnFLazFOVEwya2JVZ2Q3eVVBT2RUNElZTWdaK1dLR0RvYnlpQm4KNnRxTTRqQ2pUelBJaDVsb3hRL2hSZ2NPZlI2NUF2MHE2VUlxZTBFdWlWR3Z2d2RHdEdJS3dBK3Z1a2F1aWtXYwo2Ymlyb2UxYVk3Mis3Q2FnMzFLaUNvRzBOL2VJNVZVTG9ZVy8yaUlpb0JsanBjR0tuNUNrVXFoRWdiZExwdFJCCkk3UnpOUUtCZ0ZEUWpRNDRqTmkycFRyK2J2YmcvNW9NQmREajFJcVBWVnA3SklWNU5YNk9IZHFTT2s1WVZMYUgKVTRUU2JjN3phaWF1T1pVdHFadm9tTXd5ejZlVUZkWGVqUU9LVkprMXZLYk5hclovUWFWZlRVVWlvRjlXYjZBTQp2VFJhOGJvZWNmU2hRU1dFZXJhd25vMCtqUjdaUzFPWnYrM2lmZEpSRjZQSTJNMndpVUo4Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
+  ca.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
 ---
 apiVersion: v1
 kind: ConfigMap
@@ -578,6 +578,229 @@ spec:
     served: true
     storage: true
     subresources: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
+  name: meshgatewayconfigs.kuma.io
+spec:
+  group: kuma.io
+  names:
+    categories:
+    - kuma
+    kind: MeshGatewayConfig
+    listKind: MeshGatewayConfigList
+    plural: meshgatewayconfigs
+    singular: meshgatewayconfig
+  scope: Cluster
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: |-
+          MeshGatewayConfig holds the configuration of a MeshGateway. A
+          GatewayClass can refer to a MeshGatewayConfig via parametersRef.
+        properties:
+          apiVersion:
+            description: |-
+              APIVersion defines the versioned schema of this representation of an object.
+              Servers should convert recognized schemas to the latest internal value, and
+              may reject unrecognized values.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+            type: string
+          kind:
+            description: |-
+              Kind is a string value representing the REST resource this object represents.
+              Servers may infer this from the endpoint the client submits requests to.
+              Cannot be updated.
+              In CamelCase.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: MeshGatewayConfigSpec specifies the options available for
+              a Kuma MeshGateway.
+            properties:
+              crossMesh:
+                description: |-
+                  CrossMesh specifies whether listeners configured by this gateway are
+                  cross mesh listeners.
+                type: boolean
+              podTemplate:
+                description: PodTemplate configures the Pod owned by this config.
+                properties:
+                  metadata:
+                    description: Metadata holds metadata configuration for a Service.
+                    properties:
+                      annotations:
+                        additionalProperties:
+                          type: string
+                        description: Annotations holds annotations to be set on an
+                          object.
+                        type: object
+                      labels:
+                        additionalProperties:
+                          type: string
+                        description: Labels holds labels to be set on an objects.
+                        type: object
+                    type: object
+                  spec:
+                    description: Spec holds some customizable fields of a Pod.
+                    properties:
+                      container:
+                        description: Container corresponds to PodSpec.Container
+                        properties:
+                          securityContext:
+                            description: ContainerSecurityContext corresponds to PodSpec.Container.SecurityContext
+                            properties:
+                              readOnlyRootFilesystem:
+                                description: ReadOnlyRootFilesystem corresponds to
+                                  PodSpec.Container.SecurityContext.ReadOnlyRootFilesystem
+                                type: boolean
+                            type: object
+                        type: object
+                      securityContext:
+                        description: PodSecurityContext corresponds to PodSpec.SecurityContext
+                        properties:
+                          fsGroup:
+                            description: FSGroup corresponds to PodSpec.SecurityContext.FSGroup
+                            format: int64
+                            type: integer
+                        type: object
+                      serviceAccountName:
+                        description: ServiceAccountName corresponds to PodSpec.ServiceAccountName.
+                        type: string
+                    type: object
+                type: object
+              replicas:
+                default: 1
+                description: |-
+                  Replicas is the number of dataplane proxy replicas to create. For
+                  now this is a fixed number, but in the future it could be
+                  automatically scaled based on metrics.
+                format: int32
+                minimum: 1
+                type: integer
+              resources:
+                description: |-
+                  Resources specifies the compute resources for the proxy container.
+                  The default can be set in the control plane config.
+                properties:
+                  claims:
+                    description: |-
+                      Claims lists the names of resources, defined in spec.resourceClaims,
+                      that are used by this container.
+
+
+                      This is an alpha field and requires enabling the
+                      DynamicResourceAllocation feature gate.
+
+
+                      This field is immutable. It can only be set for containers.
+                    items:
+                      description: ResourceClaim references one entry in PodSpec.ResourceClaims.
+                      properties:
+                        name:
+                          description: |-
+                            Name must match the name of one entry in pod.spec.resourceClaims of
+                            the Pod where this field is used. It makes that resource available
+                            inside a container.
+                          type: string
+                      required:
+                      - name
+                      type: object
+                    type: array
+                    x-kubernetes-list-map-keys:
+                    - name
+                    x-kubernetes-list-type: map
+                  limits:
+                    additionalProperties:
+                      anyOf:
+                      - type: integer
+                      - type: string
+                      pattern: ^(\+|-)?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))(([KMGTPE]i)|[numkMGTPE]|([eE](\+|-)?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))))?$
+                      x-kubernetes-int-or-string: true
+                    description: |-
+                      Limits describes the maximum amount of compute resources allowed.
+                      More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+                    type: object
+                  requests:
+                    additionalProperties:
+                      anyOf:
+                      - type: integer
+                      - type: string
+                      pattern: ^(\+|-)?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))(([KMGTPE]i)|[numkMGTPE]|([eE](\+|-)?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))))?$
+                      x-kubernetes-int-or-string: true
+                    description: |-
+                      Requests describes the minimum amount of compute resources required.
+                      If Requests is omitted for a container, it defaults to Limits if that is explicitly specified,
+                      otherwise to an implementation-defined value. Requests cannot exceed Limits.
+                      More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+                    type: object
+                type: object
+              serviceTemplate:
+                description: ServiceTemplate configures the Service owned by this
+                  config.
+                properties:
+                  metadata:
+                    description: Metadata holds metadata configuration for a Service.
+                    properties:
+                      annotations:
+                        additionalProperties:
+                          type: string
+                        description: Annotations holds annotations to be set on an
+                          object.
+                        type: object
+                      labels:
+                        additionalProperties:
+                          type: string
+                        description: Labels holds labels to be set on an objects.
+                        type: object
+                    type: object
+                  spec:
+                    description: Spec holds some customizable fields of a Service.
+                    properties:
+                      loadBalancerIP:
+                        description: LoadBalancerIP corresponds to ServiceSpec.LoadBalancerIP.
+                        type: string
+                    type: object
+                type: object
+              serviceType:
+                default: LoadBalancer
+                description: |-
+                  ServiceType specifies the type of managed Service that will be
+                  created to expose the dataplane proxies to traffic from outside
+                  the cluster. The ports to expose will be taken from the matching Gateway
+                  resource. If there is no matching Gateway, the managed Service will
+                  be deleted.
+                enum:
+                - LoadBalancer
+                - ClusterIP
+                - NodePort
+                type: string
+              tags:
+                additionalProperties:
+                  type: string
+                description: |-
+                  Tags specifies a set of Kuma tags that are included in the
+                  MeshGatewayInstance and thus propagated to every Dataplane generated to
+                  serve the MeshGateway.
+                  These tags should include a maximum of one `kuma.io/service` tag.
+                type: object
+            type: object
+          status:
+            description: |-
+              MeshGatewayConfigStatus holds information about the status of the gateway
+              instance.
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources:
+      status: {}
 ---
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
@@ -1530,6 +1753,11 @@ spec:
                                         Name of the referenced resource. Can only be used with kinds: `MeshService`,
                                         `MeshServiceSubset` and `MeshGatewayRoute`
                                       type: string
+                                    port:
+                                      description: Port is only supported when this
+                                        ref refers to a real MeshService object
+                                      format: int32
+                                      type: integer
                                     proxyTypes:
                                       description: |-
                                         ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
@@ -1610,9 +1838,7 @@ spec:
                                     requestMirror:
                                       properties:
                                         backendRef:
-                                          description: TargetRef defines structure
-                                            that allows attaching policy to various
-                                            objects
+                                          description: TODO forbid weight
                                           properties:
                                             kind:
                                               description: Kind of the referenced
@@ -1634,6 +1860,12 @@ spec:
                                                 Name of the referenced resource. Can only be used with kinds: `MeshService`,
                                                 `MeshServiceSubset` and `MeshGatewayRoute`
                                               type: string
+                                            port:
+                                              description: Port is only supported
+                                                when this ref refers to a real MeshService
+                                                object
+                                              format: int32
+                                              type: integer
                                             proxyTypes:
                                               description: |-
                                                 ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
@@ -1652,6 +1884,10 @@ spec:
                                                 Tags used to select a subset of proxies by tags. Can only be used with kinds
                                                 `MeshSubset` and `MeshServiceSubset`
                                               type: object
+                                            weight:
+                                              default: 1
+                                              minimum: 0
+                                              type: integer
                                           type: object
                                         percentage:
                                           anyOf:
@@ -2640,6 +2876,10 @@ spec:
                             endpoint:
                               description: Endpoint for OpenTelemetry collector
                               type: string
+                            refreshInterval:
+                              description: RefreshInterval defines how frequent metrics
+                                should be pushed to collector
+                              type: string
                           required:
                           - endpoint
                           type: object
@@ -2701,10 +2941,76 @@ spec:
                           at least once, gauges changed at least once, and histograms added to at
                           least once). If true will scrape all metrics (even the ones with zeros).
                         type: boolean
-                      regex:
-                        description: Regex that will be used to filter sidecar metrics.
-                          It uses Google RE2 engine https://github.com/google/re2
-                        type: string
+                      profiles:
+                        description: Profiles allows to customize which metrics are
+                          published.
+                        properties:
+                          appendProfiles:
+                            description: AppendProfiles allows to combine the metrics
+                              from multiple predefined profiles.
+                            items:
+                              properties:
+                                name:
+                                  description: 'Name of the predefined profile, one
+                                    of: all, basic, none'
+                                  enum:
+                                  - All
+                                  - Basic
+                                  - None
+                                  type: string
+                              required:
+                              - name
+                              type: object
+                            type: array
+                          exclude:
+                            description: |-
+                              Exclude makes it possible to exclude groups of metrics from a resulting profile.
+                              Exclude is subordinate to Include.
+                            items:
+                              properties:
+                                match:
+                                  description: Match is the value used to match using
+                                    particular Type
+                                  type: string
+                                type:
+                                  description: 'Type defined the type of selector,
+                                    one of: prefix, regex, exact'
+                                  enum:
+                                  - Prefix
+                                  - Regex
+                                  - Exact
+                                  - Contains
+                                  type: string
+                              required:
+                              - match
+                              - type
+                              type: object
+                            type: array
+                          include:
+                            description: |-
+                              Include makes it possible to include additional metrics in a selected profiles.
+                              Include takes precedence over Exclude.
+                            items:
+                              properties:
+                                match:
+                                  description: Match is the value used to match using
+                                    particular Type
+                                  type: string
+                                type:
+                                  description: 'Type defined the type of selector,
+                                    one of: prefix, regex, exact'
+                                  enum:
+                                  - Prefix
+                                  - Regex
+                                  - Exact
+                                  - Contains
+                                  type: string
+                              required:
+                              - match
+                              - type
+                              type: object
+                            type: array
+                        type: object
                     type: object
                 type: object
               targetRef:
@@ -2758,6 +3064,56 @@ spec:
     served: true
     storage: true
     subresources: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
+  name: dataplaneinsights.kuma.io
+spec:
+  group: kuma.io
+  names:
+    categories:
+    - kuma
+    kind: DataplaneInsight
+    listKind: DataplaneInsightList
+    plural: dataplaneinsights
+    singular: dataplaneinsight
+  scope: Namespaced
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        properties:
+          apiVersion:
+            description: |-
+              APIVersion defines the versioned schema of this representation of an object.
+              Servers should convert recognized schemas to the latest internal value, and
+              may reject unrecognized values.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+            type: string
+          kind:
+            description: |-
+              Kind is a string value representing the REST resource this object represents.
+              Servers may infer this from the endpoint the client submits requests to.
+              Cannot be updated.
+              In CamelCase.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+            type: string
+          mesh:
+            description: |-
+              Mesh is the name of the Kuma mesh this resource belongs to.
+              It may be omitted for cluster-scoped resources.
+            type: string
+          metadata:
+            type: object
+          status:
+            description: Status is the status the Kuma resource.
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: true
 ---
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
@@ -3300,56 +3656,6 @@ spec:
     served: true
     storage: true
     subresources: {}
----
-apiVersion: apiextensions.k8s.io/v1
-kind: CustomResourceDefinition
-metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.14.0
-  name: dataplaneinsights.kuma.io
-spec:
-  group: kuma.io
-  names:
-    categories:
-    - kuma
-    kind: DataplaneInsight
-    listKind: DataplaneInsightList
-    plural: dataplaneinsights
-    singular: dataplaneinsight
-  scope: Namespaced
-  versions:
-  - name: v1alpha1
-    schema:
-      openAPIV3Schema:
-        properties:
-          apiVersion:
-            description: |-
-              APIVersion defines the versioned schema of this representation of an object.
-              Servers should convert recognized schemas to the latest internal value, and
-              may reject unrecognized values.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
-            type: string
-          kind:
-            description: |-
-              Kind is a string value representing the REST resource this object represents.
-              Servers may infer this from the endpoint the client submits requests to.
-              Cannot be updated.
-              In CamelCase.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
-            type: string
-          mesh:
-            description: |-
-              Mesh is the name of the Kuma mesh this resource belongs to.
-              It may be omitted for cluster-scoped resources.
-            type: string
-          metadata:
-            type: object
-          status:
-            description: Status is the status the Kuma resource.
-            x-kubernetes-preserve-unknown-fields: true
-        type: object
-    served: true
-    storage: true
 ---
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
@@ -4271,6 +4577,106 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.14.0
+  name: meshservices.kuma.io
+spec:
+  group: kuma.io
+  names:
+    categories:
+    - kuma
+    kind: MeshService
+    listKind: MeshServiceList
+    plural: meshservices
+    singular: meshservice
+  scope: Namespaced
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        properties:
+          apiVersion:
+            description: |-
+              APIVersion defines the versioned schema of this representation of an object.
+              Servers should convert recognized schemas to the latest internal value, and
+              may reject unrecognized values.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+            type: string
+          kind:
+            description: |-
+              Kind is a string value representing the REST resource this object represents.
+              Servers may infer this from the endpoint the client submits requests to.
+              Cannot be updated.
+              In CamelCase.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: Spec is the specification of the Kuma MeshService resource.
+            properties:
+              ports:
+                items:
+                  properties:
+                    port:
+                      format: int32
+                      type: integer
+                    protocol:
+                      default: tcp
+                      description: Protocol identifies a protocol supported by a service.
+                      type: string
+                    targetPort:
+                      format: int32
+                      type: integer
+                  required:
+                  - port
+                  type: object
+                type: array
+                x-kubernetes-list-map-keys:
+                - port
+                - protocol
+                x-kubernetes-list-type: map
+              selector:
+                properties:
+                  dataplaneTags:
+                    additionalProperties:
+                      type: string
+                    type: object
+                type: object
+            type: object
+          status:
+            description: Status is the current status of the Kuma MeshService resource.
+            properties:
+              addresses:
+                items:
+                  properties:
+                    hostname:
+                      type: string
+                  type: object
+                type: array
+              tls:
+                properties:
+                  status:
+                    enum:
+                    - Ready
+                    - NotReady
+                    type: string
+                type: object
+              vips:
+                items:
+                  properties:
+                    ip:
+                      type: string
+                  type: object
+                type: array
+            type: object
+        type: object
+    served: true
+    storage: true
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
   name: meshtcproutes.kuma.io
 spec:
   group: kuma.io
@@ -4399,6 +4805,11 @@ spec:
                                         Name of the referenced resource. Can only be used with kinds: `MeshService`,
                                         `MeshServiceSubset` and `MeshGatewayRoute`
                                       type: string
+                                    port:
+                                      description: Port is only supported when this
+                                        ref refers to a real MeshService object
+                                      format: int32
+                                      type: integer
                                     proxyTypes:
                                       description: |-
                                         ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
@@ -5334,6 +5745,76 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.14.0
+  name: dataplanes.kuma.io
+spec:
+  group: kuma.io
+  names:
+    categories:
+    - kuma
+    kind: Dataplane
+    listKind: DataplaneList
+    plural: dataplanes
+    singular: dataplane
+  scope: Namespaced
+  versions:
+  - additionalPrinterColumns:
+    - description: Service tag of the first inbound
+      jsonPath: .spec.networking.inbound[0].tags['kuma\.io/service']
+      name: kuma.io/service
+      type: string
+    - description: Service tag of the second inbound
+      jsonPath: .spec.networking.inbound[1].tags['kuma\.io/service']
+      name: kuma.io/service
+      type: string
+    - description: Service tag of the third inbound
+      jsonPath: .spec.networking.inbound[2].tags['kuma\.io/service']
+      name: kuma.io/service
+      priority: 1
+      type: string
+    - description: Service tag of the fourth inbound
+      jsonPath: .spec.networking.inbound[3].tags['kuma\.io/service']
+      name: kuma.io/service
+      priority: 1
+      type: string
+    name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        properties:
+          apiVersion:
+            description: |-
+              APIVersion defines the versioned schema of this representation of an object.
+              Servers should convert recognized schemas to the latest internal value, and
+              may reject unrecognized values.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+            type: string
+          kind:
+            description: |-
+              Kind is a string value representing the REST resource this object represents.
+              Servers may infer this from the endpoint the client submits requests to.
+              Cannot be updated.
+              In CamelCase.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+            type: string
+          mesh:
+            description: |-
+              Mesh is the name of the Kuma mesh this resource belongs to.
+              It may be omitted for cluster-scoped resources.
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: Spec is the specification of the Kuma Dataplane resource.
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: true
+    subresources: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
   name: retries.kuma.io
 spec:
   group: kuma.io
@@ -5428,76 +5909,6 @@ spec:
         type: object
     served: true
     storage: true
----
-apiVersion: apiextensions.k8s.io/v1
-kind: CustomResourceDefinition
-metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.14.0
-  name: dataplanes.kuma.io
-spec:
-  group: kuma.io
-  names:
-    categories:
-    - kuma
-    kind: Dataplane
-    listKind: DataplaneList
-    plural: dataplanes
-    singular: dataplane
-  scope: Namespaced
-  versions:
-  - additionalPrinterColumns:
-    - description: Service tag of the first inbound
-      jsonPath: .spec.networking.inbound[0].tags['kuma\.io/service']
-      name: kuma.io/service
-      type: string
-    - description: Service tag of the second inbound
-      jsonPath: .spec.networking.inbound[1].tags['kuma\.io/service']
-      name: kuma.io/service
-      type: string
-    - description: Service tag of the third inbound
-      jsonPath: .spec.networking.inbound[2].tags['kuma\.io/service']
-      name: kuma.io/service
-      priority: 1
-      type: string
-    - description: Service tag of the fourth inbound
-      jsonPath: .spec.networking.inbound[3].tags['kuma\.io/service']
-      name: kuma.io/service
-      priority: 1
-      type: string
-    name: v1alpha1
-    schema:
-      openAPIV3Schema:
-        properties:
-          apiVersion:
-            description: |-
-              APIVersion defines the versioned schema of this representation of an object.
-              Servers should convert recognized schemas to the latest internal value, and
-              may reject unrecognized values.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
-            type: string
-          kind:
-            description: |-
-              Kind is a string value representing the REST resource this object represents.
-              Servers may infer this from the endpoint the client submits requests to.
-              Cannot be updated.
-              In CamelCase.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
-            type: string
-          mesh:
-            description: |-
-              Mesh is the name of the Kuma mesh this resource belongs to.
-              It may be omitted for cluster-scoped resources.
-            type: string
-          metadata:
-            type: object
-          spec:
-            description: Spec is the specification of the Kuma Dataplane resource.
-            x-kubernetes-preserve-unknown-fields: true
-        type: object
-    served: true
-    storage: true
-    subresources: {}
 ---
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
@@ -5910,6 +6321,56 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.14.0
+  name: externalservices.kuma.io
+spec:
+  group: kuma.io
+  names:
+    categories:
+    - kuma
+    kind: ExternalService
+    listKind: ExternalServiceList
+    plural: externalservices
+    singular: externalservice
+  scope: Cluster
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        properties:
+          apiVersion:
+            description: |-
+              APIVersion defines the versioned schema of this representation of an object.
+              Servers should convert recognized schemas to the latest internal value, and
+              may reject unrecognized values.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+            type: string
+          kind:
+            description: |-
+              Kind is a string value representing the REST resource this object represents.
+              Servers may infer this from the endpoint the client submits requests to.
+              Cannot be updated.
+              In CamelCase.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+            type: string
+          mesh:
+            description: |-
+              Mesh is the name of the Kuma mesh this resource belongs to.
+              It may be omitted for cluster-scoped resources.
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: Spec is the specification of the Kuma ExternalService resource.
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: true
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
   name: zoneingresses.kuma.io
 spec:
   group: kuma.io
@@ -6007,56 +6468,6 @@ spec:
           spec:
             description: Spec is the specification of the Kuma ZoneIngressInsight
               resource.
-            x-kubernetes-preserve-unknown-fields: true
-        type: object
-    served: true
-    storage: true
----
-apiVersion: apiextensions.k8s.io/v1
-kind: CustomResourceDefinition
-metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.14.0
-  name: externalservices.kuma.io
-spec:
-  group: kuma.io
-  names:
-    categories:
-    - kuma
-    kind: ExternalService
-    listKind: ExternalServiceList
-    plural: externalservices
-    singular: externalservice
-  scope: Cluster
-  versions:
-  - name: v1alpha1
-    schema:
-      openAPIV3Schema:
-        properties:
-          apiVersion:
-            description: |-
-              APIVersion defines the versioned schema of this representation of an object.
-              Servers should convert recognized schemas to the latest internal value, and
-              may reject unrecognized values.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
-            type: string
-          kind:
-            description: |-
-              Kind is a string value representing the REST resource this object represents.
-              Servers may infer this from the endpoint the client submits requests to.
-              Cannot be updated.
-              In CamelCase.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
-            type: string
-          mesh:
-            description: |-
-              Mesh is the name of the Kuma mesh this resource belongs to.
-              It may be omitted for cluster-scoped resources.
-            type: string
-          metadata:
-            type: object
-          spec:
-            description: Spec is the specification of the Kuma ExternalService resource.
             x-kubernetes-preserve-unknown-fields: true
         type: object
     served: true
@@ -7519,6 +7930,13 @@ rules:
       - list
       - watch
   - apiGroups:
+    - ""
+    resources:
+      - secrets
+    verbs:
+    - list
+    - watch
+  - apiGroups:
       - "apps"
     resources:
       - deployments
@@ -7626,6 +8044,7 @@ rules:
       - meshgateways
       - meshgatewayroutes
       - meshgatewayinstances
+      - meshgatewayconfigs
       - meshaccesslogs
       - meshcircuitbreakers
       - meshfaultinjections
@@ -7640,6 +8059,7 @@ rules:
       - meshtimeouts
       - meshtraces
       - meshtrafficpermissions
+      - meshservices
     verbs:
       - get
       - list
@@ -7818,7 +8238,7 @@ spec:
     metadata:
       annotations:
         checksum/config: fd9d1d8386f97f2bd49e50f476520816168a1c9f60bbc43dec1347a64d239155
-        checksum/tls-secrets: d938d9060e38a2088b7813b04adcb845f30303f36ad2253654c1233d3a6f2ce9
+        checksum/tls-secrets: 62ef77a30a23bee1587b6b2772dfba1a0753727eabe83ca47a4c1b8cf1d46173
       labels: 
         app: kuma-control-plane
         app.kubernetes.io/name: kuma
@@ -7855,7 +8275,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: control-plane
-          image: "docker.io/kumahq/kuma-cp:2.6.5"
+          image: "docker.io/kumahq/kuma-cp:2.7.2"
           imagePullPolicy: IfNotPresent
           securityContext:
             readOnlyRootFilesystem: true
@@ -7875,9 +8295,11 @@ spec:
             - name: KUMA_GENERAL_TLS_KEY_FILE
               value: "/var/run/secrets/kuma.io/tls-cert/tls.key"
             - name: KUMA_INJECTOR_INIT_CONTAINER_IMAGE
-              value: "docker.io/kumahq/kuma-init:2.6.5"
+              value: "docker.io/kumahq/kuma-init:2.7.2"
             - name: KUMA_MODE
               value: "standalone"
+            - name: KUMA_PLUGIN_POLICIES_ENABLED
+              value: "meshaccesslogs,meshcircuitbreakers,meshfaultinjections,meshhealthchecks,meshhttproutes,meshloadbalancingstrategies,meshmetrics,meshproxypatches,meshratelimits,meshretries,meshtcproutes,meshtimeouts,meshtraces,meshtrafficpermissions"
             - name: KUMA_RUNTIME_KUBERNETES_ADMISSION_SERVER_CERT_DIR
               value: "/var/run/secrets/kuma.io/tls-cert"
             - name: KUMA_RUNTIME_KUBERNETES_ADMISSION_SERVER_PORT
@@ -7889,7 +8311,7 @@ spec:
             - name: KUMA_RUNTIME_KUBERNETES_INJECTOR_CNI_ENABLED
               value: "false"
             - name: KUMA_RUNTIME_KUBERNETES_INJECTOR_SIDECAR_CONTAINER_IMAGE
-              value: "docker.io/kumahq/kuma-dp:2.6.5"
+              value: "docker.io/kumahq/kuma-dp:2.7.2"
             - name: KUMA_RUNTIME_KUBERNETES_SERVICE_ACCOUNT_NAME
               value: "system:serviceaccount:kuma-system:kuma-control-plane"
             - name: KUMA_STORE_KUBERNETES_SYSTEM_NAMESPACE
@@ -7977,7 +8399,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane
@@ -7992,6 +8414,7 @@ webhooks:
           - UPDATE
         resources:
           - meshes
+          - meshgateways
           - meshaccesslogs
           - meshcircuitbreakers
           - meshfaultinjections
@@ -8006,6 +8429,7 @@ webhooks:
           - meshtimeouts
           - meshtraces
           - meshtrafficpermissions
+          - meshservices
     sideEffects: None
   - name: owner-reference.kuma-admission.kuma.io
     admissionReviewVersions: ["v1"]
@@ -8016,7 +8440,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane
@@ -8058,6 +8482,7 @@ webhooks:
           - meshtimeouts
           - meshtraces
           - meshtrafficpermissions
+          - meshservices
   
       
     sideEffects: None
@@ -8073,7 +8498,7 @@ webhooks:
           operator: In
           values: ["enabled", "true"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane
@@ -8100,7 +8525,7 @@ webhooks:
       matchLabels:
         kuma.io/sidecar-injection: enabled
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane
@@ -8135,7 +8560,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane
@@ -8183,6 +8608,7 @@ webhooks:
           - meshtimeouts
           - meshtraces
           - meshtrafficpermissions
+          - meshservices
     
       
     sideEffects: None
@@ -8195,7 +8621,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane
@@ -8218,7 +8644,7 @@ webhooks:
         kuma.io/system-namespace: "true"
     failurePolicy: Ignore
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane
@@ -8244,7 +8670,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRUklIcmo1Y1MxN3plcUF6cTFOQ1NJakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU5EQTFORm9YRFRNME1EUXhOREV5TkRBMQpORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU1tZlN5M2hvQVI1YXRJN2hjWmwwT0d4d1pMRzM0YlhmSlZVN0kxcnBKZDcrQkNuSWtITkVzYTEKdlZsWXpnM1VWWmh3anlhNmphcW9hNmtJNGJLOVJ0U0lxMGlHaTVvQml2RXN5TlpwVG5lR2wyU1YrWUVyR04zagpaZ0cvYlh6SnVFU2JXMTc3Qlk2VFlsdmQwSU1ZSTVWNG5OOEtJZ2ZTV3FOYk9sNGNkNTZYckkvbUY2R0Y0WkFNClNPMXl5eTJVeVNELy9ORjZvUGFMT1ZUdlUvSFRLbUhGcjBsVjVSUnpHcy9RZWdvZFZPTTgyNVdUQkdwcE02NnUKSDluQnpJUW91ZGRTcnc3RHowb2RieGpYdWlqKzZ4Ym9lZDZFejZ5Z0VEdGZZN3hZUzN1bXVDMXRneFdGQ1l6YgplOVJjU0pNTHdOU2FOa2oydFJWQThicXZRem9Nb2RrQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbGNKaXZYdDE2UjFZTklDU01iVWlST2QrbTl6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb3l6aHNxVlJKUGtIT0UxeDU5ZGltNjFNM0ZmbXo3VjBMbFJ5bU9ncjRRT0VDUFRMdkJkRHMwR3R3TGRsClJpczM0NlhOQ0w3OFNsMGszL1EyYnZ6TUcyYldtMGpIeWV5UXQ5SnpwOHdaYzNKS3pBcXFQbjdyZ2JUd243ZFkKRnk0SGJOMjZmSnhBbmxSMWQxZ0NJZXlYYXhOU3QxOVlxaVBoTUFBZXUwUHBHVGFIY2pQTktlb2FLTStqWThydgpEUWNCYTFGNUw5aG91WXF6T1NvTXZiZEt5WnBuaUF4QlJMWHk4cDE0bHJjVzlvQ1I0M0F6SDNQdzkrMDZMUlV1Cm90cndzOXg3Y1NwWW5oQldWZHl4QnJuS05qTFgwYjBXRmtoY1d6TSt3amdoRmlFY2tHU0dTNzNCMlpzZzZBcTIKSjQxTHhYS01Cbm9qNEhseCt1azZVVVl3b3c9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lSQUpWSUtIUmRQT0hzVkxBWkQzSHZzZkF3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTFNVFJhRncwek5EQTFNREV4TXpRMQpNVFJhTUJJeEVEQU9CZ05WQkFNVEIydDFiV0V0WTJFd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFDMUV5NE5VdmxLVzZOTy95dmZaRVVGRm93Y29EanVhQy9kRFNkbjd6SGczb1BIUDQzS2toOWsKNWJJcmxpTWdpRFgrTmFaWlRKRnJMelJ1TUdlRVhkT0dMSkdEdWVweDBLclE0Wnd2eEtodXlnNklYb3R4WFNhdworV2hqMmM5cXdnczd5dzkvWlMzUHBQL2FnOXJDampxdUt0MFUxQm1VT0Erd3AxSkJ5K0hlQ3JZQXVWM0E3RWpaCkNSSUQwcWxXN1RqZ0d3ZCtXTzhJNVpNMTY0UDd6ZWxuWnprb25Id3VpakZUait2S2V1L1pydE9hVGdXcVk1KzIKOG0vaXMvNUdVd2o3TUpoSDdldGRwb2xwTXVXV1Z0bjY5TG5PRXFhZjRiaG5aZjJlMk13OURxWG9ta1VJY2lPcQpFQ3hFdWFwVnY1MS9FNUFDcGs2RVB6TE5zd1JxODN4YkFnTUJBQUdqWVRCZk1BNEdBMVVkRHdFQi93UUVBd0lDCnBEQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUhBd0l3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXhIL1AxQnl6eG0rMy8wT0RDQlE3R0VJQVphOHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV3Uk5rNUJaWHdPYnQvV3lNbVlieVR3d2QwSDJXMm9NeFVnWjhZN2xocVpsMHBGL3dUZXZuTk9nWVBTCmlPM3A3MGczZkRRYnBERUZzN1dXSVBiVE1scGFKNFNLa093M09JRGhwS1RtYlgyTjVmVVc2cG5zalBtWkZkbDEKUkEzZ2hFYkhmWFUrbEVtbS9uUDlCS3BYUHk4U0FvSGxXVW9DN0dOeW8xcGROUU0weHdtUndIZXdXcmNvdU1LcwpnNkZUaDRJbFNtdTZFQU5kNFIvUzBDZldMeXdGdzlHcFkrWEdIcGhhMHVRaG9pcGNXcmNOUGZ2VGIyU1ZycEY1CkVwWU1IeTM1UnMvN2VFbWJIRmhTZkdQc1d0T09XSm40S0FWR0RMZllBS3RHZTZTc05Ka092OXgwNmxwVHUwc04KaUtFR1dlZGxCdWVpczZtakN0T29lVkxpdzlJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kuma-system
         name: kuma-control-plane

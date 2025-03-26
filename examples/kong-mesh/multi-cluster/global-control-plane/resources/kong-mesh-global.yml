@@ -8763,7 +8763,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: control-plane
-          image: "docker.io/kong/kuma-cp:2.6.5"
+          image: "docker.io/kong/kuma-cp:2.7.2"
           imagePullPolicy: IfNotPresent
           securityContext:
             readOnlyRootFilesystem: true
@@ -8785,7 +8785,7 @@ spec:
             - name: KUMA_GENERAL_TLS_KEY_FILE
               value: "/var/run/secrets/kuma.io/tls-cert/tls.key"
             - name: KUMA_INJECTOR_INIT_CONTAINER_IMAGE
-              value: "docker.io/kong/kuma-init:2.6.5"
+              value: "docker.io/kong/kuma-init:2.7.2"
             - name: KUMA_MODE
               value: "global"
             - name: KUMA_MULTIZONE_GLOBAL_KDS_TLS_CERT_FILE
@@ -8803,7 +8803,7 @@ spec:
             - name: KUMA_RUNTIME_KUBERNETES_INJECTOR_CNI_ENABLED
               value: "false"
             - name: KUMA_RUNTIME_KUBERNETES_INJECTOR_SIDECAR_CONTAINER_IMAGE
-              value: "docker.io/kong/kuma-dp:2.6.5"
+              value: "docker.io/kong/kuma-dp:2.7.2"
             - name: KUMA_RUNTIME_KUBERNETES_SERVICE_ACCOUNT_NAME
               value: "system:serviceaccount:kong-mesh-system:kong-mesh-control-plane"
             - name: KUMA_STORE_KUBERNETES_SYSTEM_NAMESPACE

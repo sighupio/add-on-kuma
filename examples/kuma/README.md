@@ -4,7 +4,7 @@ Kuma is a platform agnostic open-source control plane for service mesh and micro
 
 ## Requirements
 
-- Kubernetes >= `1.14.0`
+- Kubernetes >= `1.24.0`
 - Kustomize >= `v3.6.1`
 - [cert-manager](https://github.com/sighupio/fury-kubernetes-ingress/tree/master/katalog/cert-manager)
 
@@ -14,7 +14,6 @@ Kuma is a platform agnostic open-source control plane for service mesh and micro
 
 * Kuma Control Plane: `docker.io/kumahq/kuma-cp`
 * Kuma Data Plane: `docker.io/kumahq/kuma-dp`
-* Kuma Prometheus Service Discovery: `docker.io/kumahq/kuma-prometheus-sd`
 * Kuma Init: `docker.io/kumahq/kuma-init`
 
 ## Deployment

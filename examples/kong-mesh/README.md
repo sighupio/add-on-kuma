@@ -2,11 +2,9 @@
 
 Kong Mesh is built on top of Kuma and Envoy. To create a seamless experience, Kong Mesh follows the same installation and configuration procedures as Kuma, but with Kong Mesh-specific binaries.
 
-> Kong Mesh version is always one minor ahead of Kuma. For example, Kong Mesh 1.5.1 is built on top of Kuma 1.4.1
-
 ## Requirements
 
-- Kubernetes >= `1.14.0`
+- Kubernetes >= `1.24.0`
 - Kustomize >= `v3.6.1`
 - [cert-manager](https://github.com/sighupio/fury-kubernetes-ingress/tree/master/katalog/cert-manager)
 
@@ -16,7 +14,6 @@ Kong Mesh is built on top of Kuma and Envoy. To create a seamless experience, Ko
 
 * Kuma Control Plane: `docker.io/kong/kuma-cp`
 * Kuma Data Plane: `docker.io/kong/kuma-dp`
-* Kuma Prometheus Service Discovery: `docker.io/kong/kuma-prometheus-sd`
 * Kuma Init: `docker.io/kong/kuma-init`
 
 ## Deployment

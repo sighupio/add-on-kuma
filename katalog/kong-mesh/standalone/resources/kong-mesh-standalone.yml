@@ -31,9 +31,9 @@ metadata:
     app.kubernetes.io/name: kong-mesh
     app.kubernetes.io/instance: kong-mesh
 data:
-  tls.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURoRENDQW15Z0F3SUJBZ0lSQU9pTmhDcWRaUkhhNUZHYUFHTjJFWHN3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREEwTVRZeE1qTTJOREZhRncwek5EQTBNVFF4TWpNMgpOREZhTUNJeElEQWVCZ05WQkFNVEYydHZibWN0YldWemFDMWpiMjUwY205c0xYQnNZVzVsTUlJQklqQU5CZ2txCmhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBcjBYNnVRbHBFaVIxSVhDWTV4KzBlVWhDMTY3YzhiYzcKT0ZvQ0NpMHZmWC8vM3RWZ0ZEOE5HanhCUlhwRTlwLy9HaVpVdjJYMUROeHhKVFV4a1ZpU1hNNDJNR2V6RE83YgpkK2pnMktKazRPZkJYOW1jRUVPY2hqV2FEaktDcU1rQ05qZGc0ajlqaVQ0cmF1OXVyOUJISU5TakJjQW5pM2pUCitjSFRYQUZ0R3d3NnllVVpyM0VOb1JFZnRYN2J4c1N5NFIyMmN2TnYyZHlOWnR1aWhoTlNobXAzM2xFenNXT1IKRFJTUUR5MDlySVN3RHlqK1h3ZzhiTVplbVEvcjJUajBSRkVNV2VsK283NGJKbnI5WmVGRnlUVU1RN1FvRFlaeApEcU9YUDM5Wk9HN0xpSlhkMnRJQlZRNDVDaGI4YXRUKzZLQm9iRjIrcERqOXdZRWk1Mm5YU3dJREFRQUJvNEhFCk1JSEJNQTRHQTFVZER3RUIvd1FFQXdJRm9EQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUgKQXdJd0RBWURWUjBUQVFIL0JBSXdBREFmQmdOVkhTTUVHREFXZ0JSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMgp6ekJoQmdOVkhSRUVXakJZZ2locmIyNW5MVzFsYzJndFkyOXVkSEp2YkMxd2JHRnVaUzVyYjI1bkxXMWxjMmd0CmMzbHpkR1Z0Z2l4cmIyNW5MVzFsYzJndFkyOXVkSEp2YkMxd2JHRnVaUzVyYjI1bkxXMWxjMmd0YzNsemRHVnQKTG5OMll6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFUcDd4dDVTV09jRkhUOUo4N1BwNHh5REpQdUU1NTNrVApydjEvVExkUHhYSzV6azM0RnovR1N3czN3S3drMnFzZC9vOHpqL1FKYW40SnlteGMzOU1GeEtlc0NjelFTSmxSClRRMkZuYWRvc1hYWE1DY1hxRmU3bkwrci9DRVZZNVVLVndWYlRDTld4dERyL3pWYU9UcThNTk5jbDIyNGFMWDEKemJHMDV2dUhxNWRTOXBrdEZRdDVjSG83MWY4QkZzNFljQTFYaHl1OGFWcHV3TCtGTjlxM2oxSzBJTHlnb3AwYQpYRlBNTm5PcTRYT0NNUS93MEswMEUwbTFiMTJUVEpYV0I2R0E0dFZIdUVncHFYZ01vV2N5VjFlU0NMbnRtWGlwCjE2VGF3Uk1zemVobmRUVzc0MGwzMVZqT2IvM3AyaWFtS003L3VJeVh2ZmJodWtYeWh3bEljUT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
-  tls.key: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBcjBYNnVRbHBFaVIxSVhDWTV4KzBlVWhDMTY3YzhiYzdPRm9DQ2kwdmZYLy8zdFZnCkZEOE5HanhCUlhwRTlwLy9HaVpVdjJYMUROeHhKVFV4a1ZpU1hNNDJNR2V6RE83YmQramcyS0prNE9mQlg5bWMKRUVPY2hqV2FEaktDcU1rQ05qZGc0ajlqaVQ0cmF1OXVyOUJISU5TakJjQW5pM2pUK2NIVFhBRnRHd3c2eWVVWgpyM0VOb1JFZnRYN2J4c1N5NFIyMmN2TnYyZHlOWnR1aWhoTlNobXAzM2xFenNXT1JEUlNRRHkwOXJJU3dEeWorClh3ZzhiTVplbVEvcjJUajBSRkVNV2VsK283NGJKbnI5WmVGRnlUVU1RN1FvRFlaeERxT1hQMzlaT0c3TGlKWGQKMnRJQlZRNDVDaGI4YXRUKzZLQm9iRjIrcERqOXdZRWk1Mm5YU3dJREFRQUJBb0lCQUdqdVNUcnIwbGFGTXdaeApCV2toQndldzVpdC95VkNBZE5pNHNnM3JuVW5TRHBvV1BpNEF6VlJPakhrT3lTaXBBcTFpRTB4K3VxVVhlRGxoClRpcUl6eDcyYVdTelFITldzRmRxT09vWTFySDZyVDgzNVFHcnFKS0VscFUzVWhmQU55M0VHNkYzZDV5YmRwelAKZVFHU2ZITEFPbFRnQkF5d3FwOFVsZmUzOXR6QWlHVktyY2tML2wxaUxsaFQ5eERHU3VNb2FpbHFJWUExTkFBNgpPaGhkOVF1dFg4RWhpb0pxSTFsQVora0JTMmM1bUw2eUhjTlpjSWpJdDFRODVpclZ6U21SY0R0QXhlUm9jcWNYCkFNelNRa0J5SnpDOGorZmh2Y0lkN3lUbHgwM2krczh6TWpKd2ZCMldudXczcnVEWlFkOW1VRUU1VytjYkE5SWUKQWV2UUhwRUNnWUVBeGp3NENHWWVXTE03RWJBNUdYS1dDamg5TER3eDcvQ1RveU9IbkVwMk5zMGFhZ3dsY082KwpNYUVCTm5FeGMvMFdaSDBLV3ZMdXQwa3lNNEZhY3JnNkM1U0kxb0o3UE1rMXhxMzlSMEtBVjRwMENEUE9vVjFvCjVPaHpFYWNKZnBvMlBqNUlWSTlnMDlScVZMNHQ5Ymh5M3lwMUllaFhkS3JZRVpYWnV1VlREZ01DZ1lFQTRsamUKMW8xVkZlcmowVHQ4SkFBRVJxajFPUmVqSWtQc0xVdTh1QTQyd2Y5VmY5YWN4YjRSWVF0WE9FZUFzRVNSWVJGcgpUdUpUMXVGS3RpZmJNbU9PSjNQakcxY0ExNWI4V01ldzhEUVRQdjNGWHNvN3FZT3Rhakh5LzNrZlVIMlJxMS8zCkV1S2ZuR3hqbElUZUlROWNVWm5aMG9CaTRhSWNNT0FyZDd2cjB4a0NnWUFvcG1xYkZrMjh4S3dsT1d6TUVocEEKYUVzS3lpRTNZYTcwc2pGNTFDOGZsN21GNjQyMTljOGNvRForY29IQWxqS0VVcnZQNEtjaEFLcUJzMUhYMm4xVQpxSlhTM3hqa1l5SmE1b3pja3Y5OGRCRE5LY3FDZm9RbkJKK3NEQU8vYVdJY0sydHJvNmNvYVJPUTR4ckxtNUk2CnZ4c2I0K2dqTFhGM1ViSS9TQTFhL3dLQmdRQ21BY3dkeTdaMXhycWp3RjhDQUVraWtkU1l0TzlldURaRjJtQmwKRlhldnZOYzJWVzdSME43cUwra2VTOExraE1XalRhVklTOUoxclBLZ3VvYVhaRkRrT3FoOGFza2hWWWxxaTdzSAowUW0wajJic2FLSnRaemdPeE9lVjIzM09DT3FIcUhDTGwwNjg2UG4zK2FMNDJFMDdRLzF2MTkydDRybU9WenRLCks3ZUFNUUtCZ0FsNk5GajhWbFVNbCtwaEhyUTZhdFc0NmZJRUJibXNqaU0wTmt0cEYwdEp5eDNpUVVIVzJvd1cKQStmZjFQV3RJL1d3a0lZRlhPa0JyOUtBSk9udmpYcUNHbTZLakxRektRYysvRVRBQTdXbXY1NHFaMzZIV0d3Mwp3ZTcyU1ViWDh1WDVaVVBIam96eTZSajBRU1VDYlV4QUlteVJ2aFMyaXdrMFh5NU1VbzV4Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
-  ca.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  tls.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURoRENDQW15Z0F3SUJBZ0lSQU1nMU1Bazhyb1VnVGZHaXRzdTMzcUl3RFFZSktvWklodmNOQVFFTEJRQXcKRWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRBZUZ3MHlOREExTURNeE16UTNORFJhRncwek5EQTFNREV4TXpRMwpORFJhTUNJeElEQWVCZ05WQkFNVEYydHZibWN0YldWemFDMWpiMjUwY205c0xYQnNZVzVsTUlJQklqQU5CZ2txCmhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBNVRpYWovajBLNk14d2o4d0x4N2ZLYitFVktVbUE0c28KYkJsQUYzMUc1QU1zbnRKRS9tWWFGRWw4NklDSTBxZlFvRGQyWUpxL2d3R0VML05HUVdMVDNHTlFnaWhSejJmUQptTVVPVWVWY3pIQXhtbElGejdMU0lFQytFRGlNQjZKMVRvdURTKy95N05vS0lyVXlRVnBjMmpXZ1poU2xlMklsCmpKZVRHblJnS2dFeHJ0OWQ1b3JrUXJRK2RiSGRFZmNwcW9VQ05WTHpIbTFrbUNWSjlGOTRoWlM1M2RFSXRIYm0Ka3pNOXZURGdDTGRHVDNOaXZkUVJsZ05CYm94ZkhQaXdkWGM3RG91K3RJei9ZSjlqcUMzYkpWV1VjVGhiVDNsTwo2Q3N0eVdXNW41eTZEWkgxOVJBZVFLbVlBUTAyd2JVNVZDeUNrMTB4WUF1TU1BSkxGYlN3UXdJREFRQUJvNEhFCk1JSEJNQTRHQTFVZER3RUIvd1FFQXdJRm9EQWRCZ05WSFNVRUZqQVVCZ2dyQmdFRkJRY0RBUVlJS3dZQkJRVUgKQXdJd0RBWURWUjBUQVFIL0JBSXdBREFmQmdOVkhTTUVHREFXZ0JSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMgpNREJoQmdOVkhSRUVXakJZZ2locmIyNW5MVzFsYzJndFkyOXVkSEp2YkMxd2JHRnVaUzVyYjI1bkxXMWxjMmd0CmMzbHpkR1Z0Z2l4cmIyNW5MVzFsYzJndFkyOXVkSEp2YkMxd2JHRnVaUzVyYjI1bkxXMWxjMmd0YzNsemRHVnQKTG5OMll6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFtYUtoeFdWVkpFU0ZsenBxWldBcEExRVExSDdPTStVMQpnUHNnQ1paWXR4WWcyeU8xR2RuaEx2bFVreFV3MEVjVU9yZzcwaDdEazFyYktlY2d6dktKbnA4UzMrS25QaUZ4ClRsV1pmUVllWDByUnN0TG5JODBOKy9HcWdFN2gvT29XRGM4WmVybDhvZ3pZZmpWMExjUmVZYkRlQnFiL0xxYjQKbEc1aTY2M1IweUdLaFZ3eDhERzNHLzk0LzJrWkNZTGNDMnRwRURMWDNNTUZwMUs5QWdCaExlSjh6OTQzK2hXeApTZnVhMm1TSjN4NHpUOGhNNXlCNWlkUC8yNHpHcGpkczFhV2tGbzNGanROUTJnQU95dmxuWTAwYWdZVDlkZUJzClcrTllWNEhxL0w3RHlnREsvN01JN0FnR1pROUZqbVJNRysxRE1GRFdhUm5zTlJpLzd5bWJaZz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+  tls.key: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb2dJQkFBS0NBUUVBNVRpYWovajBLNk14d2o4d0x4N2ZLYitFVktVbUE0c29iQmxBRjMxRzVBTXNudEpFCi9tWWFGRWw4NklDSTBxZlFvRGQyWUpxL2d3R0VML05HUVdMVDNHTlFnaWhSejJmUW1NVU9VZVZjekhBeG1sSUYKejdMU0lFQytFRGlNQjZKMVRvdURTKy95N05vS0lyVXlRVnBjMmpXZ1poU2xlMklsakplVEduUmdLZ0V4cnQ5ZAo1b3JrUXJRK2RiSGRFZmNwcW9VQ05WTHpIbTFrbUNWSjlGOTRoWlM1M2RFSXRIYm1rek05dlREZ0NMZEdUM05pCnZkUVJsZ05CYm94ZkhQaXdkWGM3RG91K3RJei9ZSjlqcUMzYkpWV1VjVGhiVDNsTzZDc3R5V1c1bjV5NkRaSDEKOVJBZVFLbVlBUTAyd2JVNVZDeUNrMTB4WUF1TU1BSkxGYlN3UXdJREFRQUJBb0lCQUFYTHBaVElUWndnMXl3NwpIc1BDT3hBNktHVmZlNU9SWENkSGlDaFA0WS80U0pPSGEza25LYmVqbUFYazRoQzViM3Z0aXcrc09mVmMvM09hCjZnYlRNZG9icExoMXZvUEk4eXc1cDBBSTFZelJ0VjlhZlkwZnoxSkRjTXJHTXp3cUxsOGJCZW5RbWtyRXhJYlcKSC93cEJibjZxeUNKbXhtQWhNU0dQSkRwcWxqRmZMVUVSTlFMUStyTlVQdFNYbGEzWHhsMjJyc2JMMHZJNm9ONwplRjM0YUFBVktTS2tNU25KeWs5K0tQYmkwaGZmWVN3NGtBNXZ0V29ReTQvbzBPb2ZRT2VpT0h2Z1hHNnppaEovCm5jdzFveDhWNVp4aWlpYUZUQzh2eDlpcGpkVkg1Z2pSUnhBdDdONG5Qc1FWck1lSm9xaFJBQkd1NUYwVHRBU3QKdTNVSVl4a0NnWUVBNzQzM1pWb0pPNUNzOXVuK0NQRkdyQW9kZnhJNkVZckZ0dzZFSEpRZVBMSFd4Q2taRnFpdAptQ0d0cWJFTGhsbzZDUDE1cktZRCs4KytiT1d2ZmUvL2JsVG1BR0w3R1kxS2FOSHI3ZWNPdGVvellpTXFadkppCmdJZURrU3FDdEVvVklBTEZKL0xSRkpVa2dQTEc2R0FROHZDT0dYTXRKd1NjUHdadGt3MW1FaVVDZ1lFQTlQVUkKY0dPMGZvSHhydldoOWFQbXYxQVMwWGtDa2xNeWhoUmVuTnFtbG5EVzlGaVdtc0pBM3dJT3N6K2dWUmdYYTJ2NAp2ZEZtSDdKMkJIbGEwakw1R1lNZHpXMHNMTXFSRzJzUGZtN2MwTU8walJya254S05nVFdPUlBQenlNd1IwN2FOCks3ZWdYTzVtTkF6UTZQL0lGb0MzaUxFY2FZZ1M1ZVpwNXdrYWlFY0NnWUE4b0VjK1JUMFU4QloySHQ0RjBWbzcKYkF2dS91UG5VS0dkSkhWVzdqMkF5dGs1cDlVTG9RRGVBWmY3M0N5NGdka3lNVVE3NTRBV21JcnU4R29yaXpPdgo3cGlPL0gza0I1Z1BVeUZNZ2k5ODVwcStlWHZmdGZRcjV4L3ErMEU4ODRySklTcFlZK0Y2UGd5US9lQk5LeExmCkNQWk5ocEtrejB2anYzSzN4cXBRYVFLQmdBWUtSTHNBdW1La01hRnV6UitSZXc4Y21sb3Y4YkJKL09UeGU2UEMKZ0hrVkx6ZTNOMzk1YXNBVS9PZk9tZFYvVXBTRGhRNnBLeXQ4Nnd3Uk1md2M1YWVMWkNDOG9HbzZWSG1vbWlrego4cDN6TlhDRlNUM2k1enBZWjdtcmlrZFpRTmRIbVJPSzQ1bG5CMzRoRXNXc0NQTUZHWUYxWEkzOW5QbXVSTTQ5Cm16bmhBb0dBQ1hjNnRQcU9zc1hiUzUyVGsrNTlTSnBOZHRiRy9VV20zVHMwUlVUSDlqRUxmRjdOZ1ZYa3ZzUWsKNC9MNHN0RVFBQUp0d2FWY2xMeU9CR0hOVTJyOUs5aDlBS0FoaGFkOFNGcWpnN1VDbzRkQS94eThLWFpIajA1YwpOYkxLSHhEcytxTU4wOVJEYnpmT1IzalhaL2wxMGg0MmY0TVI5cVpLS0hjbUxBa0Iwa009Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
+  ca.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
 ---
 apiVersion: v1
 kind: ConfigMap
@@ -3053,6 +3053,11 @@ spec:
                                         Name of the referenced resource. Can only be used with kinds: `MeshService`,
                                         `MeshServiceSubset` and `MeshGatewayRoute`
                                       type: string
+                                    port:
+                                      description: Port is only supported when this
+                                        ref refers to a real MeshService object
+                                      format: int32
+                                      type: integer
                                     proxyTypes:
                                       description: |-
                                         ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
@@ -3133,9 +3138,7 @@ spec:
                                     requestMirror:
                                       properties:
                                         backendRef:
-                                          description: TargetRef defines structure
-                                            that allows attaching policy to various
-                                            objects
+                                          description: TODO forbid weight
                                           properties:
                                             kind:
                                               description: Kind of the referenced
@@ -3157,6 +3160,12 @@ spec:
                                                 Name of the referenced resource. Can only be used with kinds: `MeshService`,
                                                 `MeshServiceSubset` and `MeshGatewayRoute`
                                               type: string
+                                            port:
+                                              description: Port is only supported
+                                                when this ref refers to a real MeshService
+                                                object
+                                              format: int32
+                                              type: integer
                                             proxyTypes:
                                               description: |-
                                                 ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
@@ -3175,6 +3184,10 @@ spec:
                                                 Tags used to select a subset of proxies by tags. Can only be used with kinds
                                                 `MeshSubset` and `MeshServiceSubset`
                                               type: object
+                                            weight:
+                                              default: 1
+                                              minimum: 0
+                                              type: integer
                                           type: object
                                         percentage:
                                           anyOf:
@@ -4163,6 +4176,10 @@ spec:
                             endpoint:
                               description: Endpoint for OpenTelemetry collector
                               type: string
+                            refreshInterval:
+                              description: RefreshInterval defines how frequent metrics
+                                should be pushed to collector
+                              type: string
                           required:
                           - endpoint
                           type: object
@@ -4224,10 +4241,76 @@ spec:
                           at least once, gauges changed at least once, and histograms added to at
                           least once). If true will scrape all metrics (even the ones with zeros).
                         type: boolean
-                      regex:
-                        description: Regex that will be used to filter sidecar metrics.
-                          It uses Google RE2 engine https://github.com/google/re2
-                        type: string
+                      profiles:
+                        description: Profiles allows to customize which metrics are
+                          published.
+                        properties:
+                          appendProfiles:
+                            description: AppendProfiles allows to combine the metrics
+                              from multiple predefined profiles.
+                            items:
+                              properties:
+                                name:
+                                  description: 'Name of the predefined profile, one
+                                    of: all, basic, none'
+                                  enum:
+                                  - All
+                                  - Basic
+                                  - None
+                                  type: string
+                              required:
+                              - name
+                              type: object
+                            type: array
+                          exclude:
+                            description: |-
+                              Exclude makes it possible to exclude groups of metrics from a resulting profile.
+                              Exclude is subordinate to Include.
+                            items:
+                              properties:
+                                match:
+                                  description: Match is the value used to match using
+                                    particular Type
+                                  type: string
+                                type:
+                                  description: 'Type defined the type of selector,
+                                    one of: prefix, regex, exact'
+                                  enum:
+                                  - Prefix
+                                  - Regex
+                                  - Exact
+                                  - Contains
+                                  type: string
+                              required:
+                              - match
+                              - type
+                              type: object
+                            type: array
+                          include:
+                            description: |-
+                              Include makes it possible to include additional metrics in a selected profiles.
+                              Include takes precedence over Exclude.
+                            items:
+                              properties:
+                                match:
+                                  description: Match is the value used to match using
+                                    particular Type
+                                  type: string
+                                type:
+                                  description: 'Type defined the type of selector,
+                                    one of: prefix, regex, exact'
+                                  enum:
+                                  - Prefix
+                                  - Regex
+                                  - Exact
+                                  - Contains
+                                  type: string
+                              required:
+                              - match
+                              - type
+                              type: object
+                            type: array
+                        type: object
                     type: object
                 type: object
               targetRef:
@@ -5744,26 +5827,19 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.14.0
-  name: meshtcproutes.kuma.io
+  name: meshservices.kuma.io
 spec:
   group: kuma.io
   names:
     categories:
     - kuma
-    kind: MeshTCPRoute
-    listKind: MeshTCPRouteList
-    plural: meshtcproutes
-    singular: meshtcproute
+    kind: MeshService
+    listKind: MeshServiceList
+    plural: meshservices
+    singular: meshservice
   scope: Namespaced
   versions:
-  - additionalPrinterColumns:
-    - jsonPath: .spec.targetRef.kind
-      name: TargetRef Kind
-      type: string
-    - jsonPath: .spec.targetRef.name
-      name: TargetRef Name
-      type: string
-    name: v1alpha1
+  - name: v1alpha1
     schema:
       openAPIV3Schema:
         properties:
@@ -5785,181 +5861,66 @@ spec:
           metadata:
             type: object
           spec:
-            description: Spec is the specification of the Kuma MeshTCPRoute resource.
+            description: Spec is the specification of the Kuma MeshService resource.
             properties:
-              targetRef:
-                description: |-
-                  TargetRef is a reference to the resource the policy takes an effect on.
-                  The resource could be either a real store object or virtual resource
-                  defined in-place.
-                properties:
-                  kind:
-                    description: Kind of the referenced resource
-                    enum:
-                    - Mesh
-                    - MeshSubset
-                    - MeshGateway
-                    - MeshService
-                    - MeshServiceSubset
-                    - MeshHTTPRoute
-                    type: string
-                  mesh:
-                    description: Mesh is reserved for future use to identify cross
-                      mesh resources.
-                    type: string
-                  name:
-                    description: |-
-                      Name of the referenced resource. Can only be used with kinds: `MeshService`,
-                      `MeshServiceSubset` and `MeshGatewayRoute`
-                    type: string
-                  proxyTypes:
-                    description: |-
-                      ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
-                      all data plane types are targeted by the policy.
-                    items:
-                      enum:
-                      - Sidecar
-                      - Gateway
-                      type: string
-                    minItems: 1
-                    type: array
-                  tags:
-                    additionalProperties:
-                      type: string
-                    description: |-
-                      Tags used to select a subset of proxies by tags. Can only be used with kinds
-                      `MeshSubset` and `MeshServiceSubset`
-                    type: object
-                type: object
-              to:
-                description: |-
-                  To list makes a match between the consumed services and corresponding
-                  configurations
+              ports:
                 items:
                   properties:
-                    rules:
-                      description: |-
-                        Rules contains the routing rules applies to a combination of top-level
-                        targetRef and the targetRef in this entry.
-                      items:
-                        properties:
-                          default:
-                            description: |-
-                              Default holds routing rules that can be merged with rules from other
-                              policies.
-                            properties:
-                              backendRefs:
-                                items:
-                                  description: BackendRef defines where to forward
-                                    traffic.
-                                  properties:
-                                    kind:
-                                      description: Kind of the referenced resource
-                                      enum:
-                                      - Mesh
-                                      - MeshSubset
-                                      - MeshGateway
-                                      - MeshService
-                                      - MeshServiceSubset
-                                      - MeshHTTPRoute
-                                      type: string
-                                    mesh:
-                                      description: Mesh is reserved for future use
-                                        to identify cross mesh resources.
-                                      type: string
-                                    name:
-                                      description: |-
-                                        Name of the referenced resource. Can only be used with kinds: `MeshService`,
-                                        `MeshServiceSubset` and `MeshGatewayRoute`
-                                      type: string
-                                    proxyTypes:
-                                      description: |-
-                                        ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
-                                        all data plane types are targeted by the policy.
-                                      items:
-                                        enum:
-                                        - Sidecar
-                                        - Gateway
-                                        type: string
-                                      minItems: 1
-                                      type: array
-                                    tags:
-                                      additionalProperties:
-                                        type: string
-                                      description: |-
-                                        Tags used to select a subset of proxies by tags. Can only be used with kinds
-                                        `MeshSubset` and `MeshServiceSubset`
-                                      type: object
-                                    weight:
-                                      default: 1
-                                      minimum: 0
-                                      type: integer
-                                  type: object
-                                minItems: 1
-                                type: array
-                            required:
-                            - backendRefs
-                            type: object
-                        required:
-                        - default
-                        type: object
-                      maxItems: 1
-                      type: array
-                    targetRef:
-                      description: |-
-                        TargetRef is a reference to the resource that represents a group of
-                        destinations.
-                      properties:
-                        kind:
-                          description: Kind of the referenced resource
-                          enum:
-                          - Mesh
-                          - MeshSubset
-                          - MeshGateway
-                          - MeshService
-                          - MeshServiceSubset
-                          - MeshHTTPRoute
-                          type: string
-                        mesh:
-                          description: Mesh is reserved for future use to identify
-                            cross mesh resources.
-                          type: string
-                        name:
-                          description: |-
-                            Name of the referenced resource. Can only be used with kinds: `MeshService`,
-                            `MeshServiceSubset` and `MeshGatewayRoute`
-                          type: string
-                        proxyTypes:
-                          description: |-
-                            ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
-                            all data plane types are targeted by the policy.
-                          items:
-                            enum:
-                            - Sidecar
-                            - Gateway
-                            type: string
-                          minItems: 1
-                          type: array
-                        tags:
-                          additionalProperties:
-                            type: string
-                          description: |-
-                            Tags used to select a subset of proxies by tags. Can only be used with kinds
-                            `MeshSubset` and `MeshServiceSubset`
-                          type: object
-                      type: object
+                    port:
+                      format: int32
+                      type: integer
+                    protocol:
+                      default: tcp
+                      description: Protocol identifies a protocol supported by a service.
+                      type: string
+                    targetPort:
+                      format: int32
+                      type: integer
                   required:
-                  - targetRef
+                  - port
                   type: object
-                minItems: 1
                 type: array
-            required:
-            - targetRef
+                x-kubernetes-list-map-keys:
+                - port
+                - protocol
+                x-kubernetes-list-type: map
+              selector:
+                properties:
+                  dataplaneTags:
+                    additionalProperties:
+                      type: string
+                    type: object
+                type: object
+            type: object
+          status:
+            description: Status is the current status of the Kuma MeshService resource.
+            properties:
+              addresses:
+                items:
+                  properties:
+                    hostname:
+                      type: string
+                  type: object
+                type: array
+              tls:
+                properties:
+                  status:
+                    enum:
+                    - Ready
+                    - NotReady
+                    type: string
+                type: object
+              vips:
+                items:
+                  properties:
+                    ip:
+                      type: string
+                  type: object
+                type: array
             type: object
         type: object
     served: true
     storage: true
-    subresources: {}
 ---
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
@@ -6277,6 +6238,456 @@ spec:
                       `MeshSubset` and `MeshServiceSubset`
                     type: object
                 type: object
+              to:
+                description: To list makes a match between clients and corresponding
+                  configurations
+                items:
+                  properties:
+                    default:
+                      description: |-
+                        Default is a configuration specific to the group of clients referenced in
+                        'targetRef'
+                      properties:
+                        backend:
+                          description: Backend defines location of rate limit backend
+                            service.
+                          properties:
+                            rateLimitService:
+                              properties:
+                                limitOnServiceFail:
+                                  description: LimitOnServiceFail will pass limit
+                                    requests if ratelimit service is not reachable.
+                                  type: boolean
+                                timeout:
+                                  description: Timeout for rate limit request made
+                                    form Data Plane Proxy to rate limit service.
+                                  type: string
+                                url:
+                                  description: Url defines address of rate limit service.
+                                  type: string
+                              required:
+                              - timeout
+                              - url
+                              type: object
+                          required:
+                          - rateLimitService
+                          type: object
+                        http:
+                          properties:
+                            disabled:
+                              description: Define if rate limiting should be disabled.
+                              type: boolean
+                            onRateLimit:
+                              description: Describes the actions to take on a rate
+                                limit event
+                              properties:
+                                headers:
+                                  description: The Headers to be added to the HTTP
+                                    response on a rate limit event
+                                  properties:
+                                    add:
+                                      items:
+                                        properties:
+                                          name:
+                                            maxLength: 256
+                                            minLength: 1
+                                            pattern: ^[a-z0-9!#$%&'*+\-.^_\x60|~]+$
+                                            type: string
+                                          value:
+                                            type: string
+                                        required:
+                                        - name
+                                        - value
+                                        type: object
+                                      maxItems: 16
+                                      type: array
+                                      x-kubernetes-list-map-keys:
+                                      - name
+                                      x-kubernetes-list-type: map
+                                    set:
+                                      items:
+                                        properties:
+                                          name:
+                                            maxLength: 256
+                                            minLength: 1
+                                            pattern: ^[a-z0-9!#$%&'*+\-.^_\x60|~]+$
+                                            type: string
+                                          value:
+                                            type: string
+                                        required:
+                                        - name
+                                        - value
+                                        type: object
+                                      maxItems: 16
+                                      type: array
+                                      x-kubernetes-list-map-keys:
+                                      - name
+                                      x-kubernetes-list-type: map
+                                  type: object
+                                status:
+                                  description: The HTTP status code to be set on a
+                                    rate limit event
+                                  format: int32
+                                  type: integer
+                              type: object
+                            ratelimitOnRequest:
+                              description: Defines rate limit based on request content
+                              items:
+                                properties:
+                                  kind:
+                                    description: 'Kind defines type of rate limit
+                                      config. Possible options: OnHeader.'
+                                    enum:
+                                    - OnHeader
+                                    type: string
+                                  limits:
+                                    description: Limits defines limit configuration.
+                                    items:
+                                      properties:
+                                        requestRate:
+                                          description: Defines how many requests are
+                                            allowed per interval.
+                                          properties:
+                                            interval:
+                                              description: The interval the number
+                                                of units is accounted for. Only 1s,
+                                                1m, 1h or 24h can be configured.
+                                              type: string
+                                            num:
+                                              description: |-
+                                                Number of units per interval (depending on usage it can be a number of requests,
+                                                or a number of connections).
+                                              format: int32
+                                              type: integer
+                                          required:
+                                          - interval
+                                          - num
+                                          type: object
+                                        value:
+                                          description: Value of the request element
+                                            on which rate limit should apply. E.g.
+                                            header value.
+                                          type: string
+                                      required:
+                                      - requestRate
+                                      - value
+                                      type: object
+                                    type: array
+                                  name:
+                                    description: Name of the request element on which
+                                      rate limit should apply. E.g. header name.
+                                    type: string
+                                required:
+                                - kind
+                                - limits
+                                - name
+                                type: object
+                              type: array
+                            requestRate:
+                              description: Defines how many requests are allowed per
+                                interval.
+                              properties:
+                                interval:
+                                  description: The interval the number of units is
+                                    accounted for. Only 1s, 1m, 1h or 24h can be configured.
+                                  type: string
+                                num:
+                                  description: |-
+                                    Number of units per interval (depending on usage it can be a number of requests,
+                                    or a number of connections).
+                                  format: int32
+                                  type: integer
+                              required:
+                              - interval
+                              - num
+                              type: object
+                          type: object
+                        mode:
+                          description: |-
+                            Mode defines rate limit behavior when limits are reached. Possible options: Limit and Shadow. Setting Shadow will
+                            not block over the limit requests but will update metrics. This is useful for testing rate limit configuration.
+                          enum:
+                          - Limit
+                          - Shadow
+                          type: string
+                      required:
+                      - backend
+                      - http
+                      type: object
+                    targetRef:
+                      description: |-
+                        TargetRef is a reference to the resource that represents a group of
+                        clients.
+                      properties:
+                        kind:
+                          description: Kind of the referenced resource
+                          enum:
+                          - Mesh
+                          - MeshSubset
+                          - MeshGateway
+                          - MeshService
+                          - MeshServiceSubset
+                          - MeshHTTPRoute
+                          type: string
+                        mesh:
+                          description: Mesh is reserved for future use to identify
+                            cross mesh resources.
+                          type: string
+                        name:
+                          description: |-
+                            Name of the referenced resource. Can only be used with kinds: `MeshService`,
+                            `MeshServiceSubset` and `MeshGatewayRoute`
+                          type: string
+                        proxyTypes:
+                          description: |-
+                            ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
+                            all data plane types are targeted by the policy.
+                          items:
+                            enum:
+                            - Sidecar
+                            - Gateway
+                            type: string
+                          minItems: 1
+                          type: array
+                        tags:
+                          additionalProperties:
+                            type: string
+                          description: |-
+                            Tags used to select a subset of proxies by tags. Can only be used with kinds
+                            `MeshSubset` and `MeshServiceSubset`
+                          type: object
+                      type: object
+                  required:
+                  - targetRef
+                  type: object
+                type: array
+            required:
+            - targetRef
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
+  name: meshtcproutes.kuma.io
+spec:
+  group: kuma.io
+  names:
+    categories:
+    - kuma
+    kind: MeshTCPRoute
+    listKind: MeshTCPRouteList
+    plural: meshtcproutes
+    singular: meshtcproute
+  scope: Namespaced
+  versions:
+  - additionalPrinterColumns:
+    - jsonPath: .spec.targetRef.kind
+      name: TargetRef Kind
+      type: string
+    - jsonPath: .spec.targetRef.name
+      name: TargetRef Name
+      type: string
+    name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        properties:
+          apiVersion:
+            description: |-
+              APIVersion defines the versioned schema of this representation of an object.
+              Servers should convert recognized schemas to the latest internal value, and
+              may reject unrecognized values.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+            type: string
+          kind:
+            description: |-
+              Kind is a string value representing the REST resource this object represents.
+              Servers may infer this from the endpoint the client submits requests to.
+              Cannot be updated.
+              In CamelCase.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: Spec is the specification of the Kuma MeshTCPRoute resource.
+            properties:
+              targetRef:
+                description: |-
+                  TargetRef is a reference to the resource the policy takes an effect on.
+                  The resource could be either a real store object or virtual resource
+                  defined in-place.
+                properties:
+                  kind:
+                    description: Kind of the referenced resource
+                    enum:
+                    - Mesh
+                    - MeshSubset
+                    - MeshGateway
+                    - MeshService
+                    - MeshServiceSubset
+                    - MeshHTTPRoute
+                    type: string
+                  mesh:
+                    description: Mesh is reserved for future use to identify cross
+                      mesh resources.
+                    type: string
+                  name:
+                    description: |-
+                      Name of the referenced resource. Can only be used with kinds: `MeshService`,
+                      `MeshServiceSubset` and `MeshGatewayRoute`
+                    type: string
+                  proxyTypes:
+                    description: |-
+                      ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
+                      all data plane types are targeted by the policy.
+                    items:
+                      enum:
+                      - Sidecar
+                      - Gateway
+                      type: string
+                    minItems: 1
+                    type: array
+                  tags:
+                    additionalProperties:
+                      type: string
+                    description: |-
+                      Tags used to select a subset of proxies by tags. Can only be used with kinds
+                      `MeshSubset` and `MeshServiceSubset`
+                    type: object
+                type: object
+              to:
+                description: |-
+                  To list makes a match between the consumed services and corresponding
+                  configurations
+                items:
+                  properties:
+                    rules:
+                      description: |-
+                        Rules contains the routing rules applies to a combination of top-level
+                        targetRef and the targetRef in this entry.
+                      items:
+                        properties:
+                          default:
+                            description: |-
+                              Default holds routing rules that can be merged with rules from other
+                              policies.
+                            properties:
+                              backendRefs:
+                                items:
+                                  description: BackendRef defines where to forward
+                                    traffic.
+                                  properties:
+                                    kind:
+                                      description: Kind of the referenced resource
+                                      enum:
+                                      - Mesh
+                                      - MeshSubset
+                                      - MeshGateway
+                                      - MeshService
+                                      - MeshServiceSubset
+                                      - MeshHTTPRoute
+                                      type: string
+                                    mesh:
+                                      description: Mesh is reserved for future use
+                                        to identify cross mesh resources.
+                                      type: string
+                                    name:
+                                      description: |-
+                                        Name of the referenced resource. Can only be used with kinds: `MeshService`,
+                                        `MeshServiceSubset` and `MeshGatewayRoute`
+                                      type: string
+                                    port:
+                                      description: Port is only supported when this
+                                        ref refers to a real MeshService object
+                                      format: int32
+                                      type: integer
+                                    proxyTypes:
+                                      description: |-
+                                        ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
+                                        all data plane types are targeted by the policy.
+                                      items:
+                                        enum:
+                                        - Sidecar
+                                        - Gateway
+                                        type: string
+                                      minItems: 1
+                                      type: array
+                                    tags:
+                                      additionalProperties:
+                                        type: string
+                                      description: |-
+                                        Tags used to select a subset of proxies by tags. Can only be used with kinds
+                                        `MeshSubset` and `MeshServiceSubset`
+                                      type: object
+                                    weight:
+                                      default: 1
+                                      minimum: 0
+                                      type: integer
+                                  type: object
+                                minItems: 1
+                                type: array
+                            required:
+                            - backendRefs
+                            type: object
+                        required:
+                        - default
+                        type: object
+                      maxItems: 1
+                      type: array
+                    targetRef:
+                      description: |-
+                        TargetRef is a reference to the resource that represents a group of
+                        destinations.
+                      properties:
+                        kind:
+                          description: Kind of the referenced resource
+                          enum:
+                          - Mesh
+                          - MeshSubset
+                          - MeshGateway
+                          - MeshService
+                          - MeshServiceSubset
+                          - MeshHTTPRoute
+                          type: string
+                        mesh:
+                          description: Mesh is reserved for future use to identify
+                            cross mesh resources.
+                          type: string
+                        name:
+                          description: |-
+                            Name of the referenced resource. Can only be used with kinds: `MeshService`,
+                            `MeshServiceSubset` and `MeshGatewayRoute`
+                          type: string
+                        proxyTypes:
+                          description: |-
+                            ProxyTypes specifies the data plane types that are subject to the policy. When not specified,
+                            all data plane types are targeted by the policy.
+                          items:
+                            enum:
+                            - Sidecar
+                            - Gateway
+                            type: string
+                          minItems: 1
+                          type: array
+                        tags:
+                          additionalProperties:
+                            type: string
+                          description: |-
+                            Tags used to select a subset of proxies by tags. Can only be used with kinds
+                            `MeshSubset` and `MeshServiceSubset`
+                          type: object
+                      type: object
+                  required:
+                  - targetRef
+                  type: object
+                minItems: 1
+                type: array
             required:
             - targetRef
             type: object
@@ -7331,56 +7742,6 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.14.0
-  name: trafficpermissions.kuma.io
-spec:
-  group: kuma.io
-  names:
-    categories:
-    - kuma
-    kind: TrafficPermission
-    listKind: TrafficPermissionList
-    plural: trafficpermissions
-    singular: trafficpermission
-  scope: Cluster
-  versions:
-  - name: v1alpha1
-    schema:
-      openAPIV3Schema:
-        properties:
-          apiVersion:
-            description: |-
-              APIVersion defines the versioned schema of this representation of an object.
-              Servers should convert recognized schemas to the latest internal value, and
-              may reject unrecognized values.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
-            type: string
-          kind:
-            description: |-
-              Kind is a string value representing the REST resource this object represents.
-              Servers may infer this from the endpoint the client submits requests to.
-              Cannot be updated.
-              In CamelCase.
-              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
-            type: string
-          mesh:
-            description: |-
-              Mesh is the name of the Kuma mesh this resource belongs to.
-              It may be omitted for cluster-scoped resources.
-            type: string
-          metadata:
-            type: object
-          spec:
-            description: Spec is the specification of the Kuma TrafficPermission resource.
-            x-kubernetes-preserve-unknown-fields: true
-        type: object
-    served: true
-    storage: true
----
-apiVersion: apiextensions.k8s.io/v1
-kind: CustomResourceDefinition
-metadata:
-  annotations:
-    controller-gen.kubebuilder.io/version: v0.14.0
   name: meshopas.kuma.io
 spec:
   group: kuma.io
@@ -7561,6 +7922,56 @@ spec:
     served: true
     storage: true
     subresources: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
+  name: trafficpermissions.kuma.io
+spec:
+  group: kuma.io
+  names:
+    categories:
+    - kuma
+    kind: TrafficPermission
+    listKind: TrafficPermissionList
+    plural: trafficpermissions
+    singular: trafficpermission
+  scope: Cluster
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        properties:
+          apiVersion:
+            description: |-
+              APIVersion defines the versioned schema of this representation of an object.
+              Servers should convert recognized schemas to the latest internal value, and
+              may reject unrecognized values.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+            type: string
+          kind:
+            description: |-
+              Kind is a string value representing the REST resource this object represents.
+              Servers may infer this from the endpoint the client submits requests to.
+              Cannot be updated.
+              In CamelCase.
+              More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+            type: string
+          mesh:
+            description: |-
+              Mesh is the name of the Kuma mesh this resource belongs to.
+              It may be omitted for cluster-scoped resources.
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: Spec is the specification of the Kuma TrafficPermission resource.
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: true
 ---
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
@@ -8356,6 +8767,13 @@ rules:
       - list
       - watch
   - apiGroups:
+    - ""
+    resources:
+      - secrets
+    verbs:
+    - list
+    - watch
+  - apiGroups:
       - "apps"
     resources:
       - deployments
@@ -8463,6 +8881,7 @@ rules:
       - meshgateways
       - meshgatewayroutes
       - meshgatewayinstances
+      - meshgatewayconfigs
       - meshaccesslogs
       - meshcircuitbreakers
       - meshfaultinjections
@@ -8479,6 +8898,7 @@ rules:
       - meshtimeouts
       - meshtraces
       - meshtrafficpermissions
+      - meshservices
     verbs:
       - get
       - list
@@ -8710,7 +9130,7 @@ spec:
     metadata:
       annotations:
         checksum/config: b3efac06bc963812ec9655700b08b7d6064a8e0e1a0067de9425a86caff581a2
-        checksum/tls-secrets: 812558b897bcb5a364c59362eba24971b1a6aa96abf8961b8ad2e3d3a60f7e8b
+        checksum/tls-secrets: 44dd9d74628c716941279798bcae161763206925e007000039c6e8bae8a52f5c
       labels: 
         app: kong-mesh-control-plane
         app.kubernetes.io/name: kong-mesh
@@ -8747,7 +9167,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: control-plane
-          image: "docker.io/kong/kuma-cp:2.6.5"
+          image: "docker.io/kong/kuma-cp:2.7.2"
           imagePullPolicy: IfNotPresent
           securityContext:
             readOnlyRootFilesystem: true
@@ -8767,9 +9187,11 @@ spec:
             - name: KUMA_GENERAL_TLS_KEY_FILE
               value: "/var/run/secrets/kuma.io/tls-cert/tls.key"
             - name: KUMA_INJECTOR_INIT_CONTAINER_IMAGE
-              value: "docker.io/kong/kuma-init:2.6.5"
+              value: "docker.io/kong/kuma-init:2.7.2"
             - name: KUMA_MODE
               value: "standalone"
+            - name: KUMA_PLUGIN_POLICIES_ENABLED
+              value: "meshaccesslogs,meshcircuitbreakers,meshfaultinjections,meshglobalratelimits,meshhealthchecks,meshhttproutes,meshloadbalancingstrategies,meshmetrics,meshopas,meshproxypatches,meshratelimits,meshretries,meshtcproutes,meshtimeouts,meshtraces,meshtrafficpermissions"
             - name: KUMA_RUNTIME_KUBERNETES_ADMISSION_SERVER_CERT_DIR
               value: "/var/run/secrets/kuma.io/tls-cert"
             - name: KUMA_RUNTIME_KUBERNETES_ADMISSION_SERVER_PORT
@@ -8781,7 +9203,7 @@ spec:
             - name: KUMA_RUNTIME_KUBERNETES_INJECTOR_CNI_ENABLED
               value: "false"
             - name: KUMA_RUNTIME_KUBERNETES_INJECTOR_SIDECAR_CONTAINER_IMAGE
-              value: "docker.io/kong/kuma-dp:2.6.5"
+              value: "docker.io/kong/kuma-dp:2.7.2"
             - name: KUMA_RUNTIME_KUBERNETES_SERVICE_ACCOUNT_NAME
               value: "system:serviceaccount:kong-mesh-system:kong-mesh-control-plane"
             - name: KUMA_STORE_KUBERNETES_SYSTEM_NAMESPACE
@@ -8869,7 +9291,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
@@ -8884,6 +9306,7 @@ webhooks:
           - UPDATE
         resources:
           - meshes
+          - meshgateways
           - meshaccesslogs
           - meshcircuitbreakers
           - meshfaultinjections
@@ -8900,6 +9323,7 @@ webhooks:
           - meshtimeouts
           - meshtraces
           - meshtrafficpermissions
+          - meshservices
     sideEffects: None
   - name: owner-reference.kuma-admission.kuma.io
     admissionReviewVersions: ["v1"]
@@ -8910,7 +9334,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
@@ -8954,6 +9378,7 @@ webhooks:
           - meshtimeouts
           - meshtraces
           - meshtrafficpermissions
+          - meshservices
   
       - apiGroups:
           - kuma.io
@@ -8977,7 +9402,7 @@ webhooks:
           operator: In
           values: ["enabled", "true"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
@@ -9004,7 +9429,7 @@ webhooks:
       matchLabels:
         kuma.io/sidecar-injection: enabled
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
@@ -9039,7 +9464,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
@@ -9089,6 +9514,7 @@ webhooks:
           - meshtimeouts
           - meshtraces
           - meshtrafficpermissions
+          - meshservices
     
       - apiGroups:
           - kuma.io
@@ -9114,7 +9540,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
@@ -9137,7 +9563,7 @@ webhooks:
         kuma.io/system-namespace: "true"
     failurePolicy: Ignore
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
@@ -9163,7 +9589,7 @@ webhooks:
           operator: NotIn
           values: ["kube-system"]
     clientConfig:
-      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRSnZlWnlHZW9pMHR2WlRzNjFwUktxakFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFF4TmpFeU16WTBNVm9YRFRNME1EUXhOREV5TXpZMApNVm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUxvR25VY0hYWHBZQ0U5cWd0eWU4ekZCMGV4TUpIUXEzVDhvZnNUT3JQU2RHK2MyTzY1SkVVRUoKTlZ1eVl2RlF3aURXamhpNWkxNE91WXNiRGV1Y01UZk9NYWFiRWpyQVArRzdPbHdLZC9iU1NqNXh5TjA3VUtMKwpHNlNWd2h4NDJLbFlCTkZwemwxVUhzWkhpY3JhOEgxSkc3blcrN2QvTmkyQW1kbndTTXo3UWRnSlR4QmZoUXZBCjMvbmcwaHViM1J6STlaME5QVURmSnNITGo4dEQ5bmZOUDdiTWRZb0VWZXVxRmgwTjN2V0VndkdKdU4xcU9adUMKL3pMNml2aVdsaWIrRklyK2xkTlVySFlIZHdFYWNWUzd3V25mYnZBSGRsKy8zbkFwQU9ZNDBZVEI2RktDM0xHTgpkQ1VLVFQ0UW1xK2EwajBZVWZvSS82VWRnc0FDUkxFQ0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSbjJkTG5DUVBncnpCRzF5S09BU0V1ZFdIMnp6QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBa1R6QXNtMURwK0J3aGhPR3RYY1VYcDNDSVUxV0lqeFY2UTRrOWdQV0VaY1Rwa3FIS05XSU4ydndCYUlNCmFuUW5jcWsyUVJuaUF1MTlFS1lZQkhKamtiOUhlbkUzVllpR3BnMHI2eUlYMUUvTllDWkNDWjJXMkZkeUhkQUUKNWVNWU9aaE5GalF0bC9PYWg0Zkl5SWZsTFRGQm44TzBvM2NwelNmSEdFNU8zdnhwdWFHUEhMVnF3Z2lKcUxBRwpkb3VOdGxucy9ZV2RUamZ4MWFEbEJtMFpFU0hNWlhPS3JRZDNzTkNkR3pta1BVRm9CRmRuTFRKTlcvODBOLzFjCjVMWERDUVpzYXgxTTF6VjBZK2FYR091WktLVVRuVFFrcnBldDVZZzBoM1RjL2xOb202SitTb0VCT2NKNUxhTWoKbTVwVFZRMDVMM0E5T3ZkaytxMWVzTVlvZmc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lRU2FIZ1NobURtTFlOd2l2U01BSUNmVEFOQmdrcWhraUc5dzBCQVFzRkFEQVMKTVJBd0RnWURWUVFERXdkcmRXMWhMV05oTUI0WERUSTBNRFV3TXpFek5EYzBORm9YRFRNME1EVXdNVEV6TkRjMApORm93RWpFUU1BNEdBMVVFQXhNSGEzVnRZUzFqWVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQU5abWNlRWRtaGQ0ZUx4TEp1VXlBazBTTzFBQUFKN3JhVUt5cFNVVVg3aTgyV2hFcXRtZFFOMmgKYlN6VWZZODB4MXFMYytxYTZheFFkSU9QSnU0bkpqRzRHbTlOeitoMnJrZzRzemJwWmtxSlNhMmNIWEtBdk9DawpNdDNXZldkdEtJaER0YWJObUxGUjV6eGpURWFySitCUjBPK2lKcDFQSWNmbzAzSDl2KzVQYW9oZTRnTTdDbkdJCklVajl2US9tMFVRK29DYlliem02ZUthRSswR1BrUVVOaHU4YUtDQkFiVk5qVzRDM2ZqU1IrQjBFQWl0MTZ6aVoKR2FZQWpmekVrd201Zmo5TXRrNmYvUW1ySXdsd2E3TEV4ZUVBMG40MkppTTBGZ21TUGJCcW5GcDI0dUNic01CKwpQRGZodkNwUGRtZm1oNmZLQkgvdUNLQnh1VDJLeVA4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trCk1CMEdBMVVkSlFRV01CUUdDQ3NHQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC8KTUIwR0ExVWREZ1FXQkJSTDRudDN0TmhnYVRFcmN4TWtJMFNSK3BEMk1EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBSmVJYzlGYkgxdit1YmxEdUVjNU1TekF6NjlpS1ZtWWw4elpJRStqb1cvME9BaldtOUxBOU9udGlFUjhoCkRDRlFPb0NFUy9Nc3lOQzROWHpBWnozbkpWOS9nV3Y5WDJ1UEl1TTlIN3FQSlpWMit2M2liS3BXQlpHQ01WZTEKalBOOWlKelR2OWVKSXhUaVZrSlZiSjl4ZzB3TkxQSlhpQWtYNGRkZGdmZjJwQ0FUV2hHWVl1c3lUaENHeUNZawpGbStWeGtjK3lDU2RQWFFvQjJsdlBDSHZTN2c2eEJWZjM0cCtjUUV2WGV3ajdkVVl2RjNPM29lNUNtRDdMd2RMCmhvMVY1Q3hIc0dOY0d1ZThBdUQxTWc5dkR2U3UvR1NsbklwTlBLamtNSGE1WWJ0T3lLU0VnTGMrS2hUYVFDSysKZDJDMWs2Q0NCT1NxSk1PV0xDd0ZVNDdFTlE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
       service:
         namespace: kong-mesh-system
         name: kong-mesh-control-plane
