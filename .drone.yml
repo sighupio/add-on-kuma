@@ -1,0 +1,462 @@
+# Copyright (c) 2017-present SIGHUP s.r.l All rights reserved.
+# Use of this source code is governed by a BSD-style
+# license that can be found in the LICENSE file.
+
+# Pipelines order:
+# 1. license
+# 2. policeman
+# 3. kuma-1.24 + kuma-1.25
+# 4. kuma-1.26 + kuma-1.27
+# 5. release
+
+name: license
+kind: pipeline
+type: docker
+
+steps:
+  - name: check
+    image: docker.io/library/golang:1.20
+    pull: always
+    commands:
+      - go install github.com/google/addlicense@v1.1.1
+      - addlicense -c "SIGHUP s.r.l" -v -l bsd -y "2017-present" --check .
+
+---
+name: policeman
+kind: pipeline
+type: docker
+
+depends_on:
+  - license
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: lint
+    image: quay.io/sighup/policeman
+    pull: always
+    environment:
+      # Identifies false positives like missing 'selector'.
+      # Doing this is valid for Kustomize patches
+      VALIDATE_KUBERNETES_KUBEVAL: "false"
+      # Some duplicated code is intended.
+      VALIDATE_JSCPD: "false"
+      # hadolint already validated dockerfiles
+      VALIDATE_DOCKERFILE: "false"
+      # Disable natural language checks
+      VALIDATE_NATURAL_LANGUAGE: "false"
+      # Disable .env files validation
+      VALIDATE_ENV: "false"
+    depends_on:
+      - clone
+
+  - name: render
+    image: quay.io/sighup/e2e-testing:1.1.0_0.7.0_3.1.1_1.9.4_1.24.1_3.8.7_4.21.1
+    pull: always
+    depends_on:
+      - clone
+    commands:
+      - kustomize build katalog/kuma/standalone > kuma-standalone.yml
+
+  - name: check-deprecated-apis
+    image: us-docker.pkg.dev/fairwinds-ops/oss/pluto:v5
+    pull: always
+    depends_on:
+      - render
+    commands:
+    - /pluto detect kuma-standalone.yml --ignore-deprecations --ignore-removals --target-versions=k8s=v1.27.0
+---
+name: e2e-kubernetes-1.24-kuma
+kind: pipeline
+type: docker
+
+depends_on:
+  - policeman
+
+platform:
+  os: linux
+  arch: amd64
+
+trigger:
+  ref:
+    include:
+      - refs/heads/master
+      - refs/tags/**
+      - refs/heads/hotfix-*
+
+steps:
+  - name: create-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    pull: always
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    depends_on: [clone]
+    environment:
+      CLUSTER_VERSION: v1.24.15
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-124
+      # /drone/src is the default workdir for the pipeline
+      # using this folder we don't need to mount another
+      # shared volume between the steps
+      KUBECONFIG: /drone/src/kubeconfig-124
+    commands:
+      # NOTE: kind's `--wait` flag that waits for the control-plane ot be ready
+      # does not work when disabling the default CNI. It will always go in timeout.
+      - kind create cluster --name $${CLUSTER_NAME} --image registry.sighup.io/fury/kindest/node:$${CLUSTER_VERSION} --config katalog/tests/kind-config.yml
+      # save the kubeconfig so we can use it from other steps.
+      - kind get kubeconfig --name $${CLUSTER_NAME} > $${KUBECONFIG}
+
+  - name: e2e-kuma-standalone
+    image: quay.io/sighup/e2e-testing:1.1.0_0.7.0_3.1.1_1.9.4_1.24.1_3.8.7_4.21.1
+    pull: always
+    network_mode: host
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-124
+      KUBECONFIG: /drone/src/kubeconfig-124
+    depends_on: [create-kind-cluster]
+    commands:
+      - bats -t katalog/tests/kuma-standalone/kuma-standalone-deploy.sh
+      - bats -t katalog/tests/kuma-standalone/kuma-demo-deploy.sh
+
+  - name: delete-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    pull: always
+    depends_on: [e2e-kuma-standalone]
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-124
+    commands:
+      # does not matter if the command fails
+      - kind delete cluster --name $${CLUSTER_NAME} || true
+    when:
+      status:
+        - success
+        - failure
+
+volumes:
+  - name: dockersock
+    host:
+      path: /var/run/docker.sock
+
+---
+name: e2e-kubernetes-1.25-kuma
+kind: pipeline
+type: docker
+
+depends_on:
+  - e2e-kubernetes-1.24-kuma
+
+platform:
+  os: linux
+  arch: amd64
+
+trigger:
+  ref:
+    include:
+      - refs/heads/master
+      - refs/tags/**
+      - refs/heads/hotfix-*
+
+steps:
+  - name: create-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    pull: always
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    depends_on: [clone]
+    environment:
+      CLUSTER_VERSION: v1.25.11
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-125
+      # /drone/src is the default workdir for the pipeline
+      # using this folder we don't need to mount another
+      # shared volume between the steps
+      KUBECONFIG: /drone/src/kubeconfig-125
+    commands:
+      # NOTE: kind's `--wait` flag that waits for the control-plane ot be ready
+      # does not work when disabling the default CNI. It will always go in timeout.
+      - kind create cluster --name $${CLUSTER_NAME} --image registry.sighup.io/fury/kindest/node:$${CLUSTER_VERSION} --config katalog/tests/kind-config.yml
+      # save the kubeconfig so we can use it from other steps.
+      - kind get kubeconfig --name $${CLUSTER_NAME} > $${KUBECONFIG}
+
+  - name: e2e-kuma-standalone
+    image: quay.io/sighup/e2e-testing:1.1.0_0.7.0_3.1.1_1.9.4_1.24.1_3.8.7_4.21.1
+    pull: always
+    network_mode: host
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-125
+      KUBECONFIG: /drone/src/kubeconfig-125
+    depends_on: [create-kind-cluster]
+    commands:
+      - bats -t katalog/tests/kuma-standalone/kuma-standalone-deploy.sh
+      - bats -t katalog/tests/kuma-standalone/kuma-demo-deploy.sh
+
+  - name: delete-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    pull: always
+    depends_on: [e2e-kuma-standalone]
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-125
+    commands:
+      # does not matter if the command fails
+      - kind delete cluster --name $${CLUSTER_NAME} || true
+    when:
+      status:
+        - success
+        - failure
+
+volumes:
+  - name: dockersock
+    host:
+      path: /var/run/docker.sock
+
+---
+name: e2e-kubernetes-1.26-kuma
+kind: pipeline
+type: docker
+
+depends_on:
+  - e2e-kubernetes-1.25-kuma
+
+platform:
+  os: linux
+  arch: amd64
+
+trigger:
+  ref:
+    include:
+      - refs/heads/master
+      - refs/tags/**
+      - refs/heads/hotfix-*
+
+steps:
+  - name: create-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    pull: always
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    depends_on: [clone]
+    environment:
+      CLUSTER_VERSION: v1.26.6
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-126
+      # /drone/src is the default workdir for the pipeline
+      # using this folder we don't need to mount another
+      # shared volume between the steps
+      KUBECONFIG: /drone/src/kubeconfig-126
+    commands:
+      # NOTE: kind's `--wait` flag that waits for the control-plane ot be ready
+      # does not work when disabling the default CNI. It will always go in timeout.
+      - kind create cluster --name $${CLUSTER_NAME} --image registry.sighup.io/fury/kindest/node:$${CLUSTER_VERSION} --config katalog/tests/kind-config.yml
+      # save the kubeconfig so we can use it from other steps.
+      - kind get kubeconfig --name $${CLUSTER_NAME} > $${KUBECONFIG}
+
+  - name: e2e-kuma-standalone
+    image: quay.io/sighup/e2e-testing:1.1.0_0.7.0_3.1.1_1.9.4_1.24.1_3.8.7_4.21.1
+    pull: always
+    network_mode: host
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-126
+      KUBECONFIG: /drone/src/kubeconfig-126
+    depends_on: [create-kind-cluster]
+    commands:
+      - bats -t katalog/tests/kuma-standalone/kuma-standalone-deploy.sh
+      - bats -t katalog/tests/kuma-standalone/kuma-demo-deploy.sh
+
+  - name: delete-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    pull: always
+    depends_on: [e2e-kuma-standalone]
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-126
+    commands:
+      # does not matter if the command fails
+      - kind delete cluster --name $${CLUSTER_NAME} || true
+    when:
+      status:
+        - success
+        - failure
+
+volumes:
+  - name: dockersock
+    host:
+      path: /var/run/docker.sock
+
+---
+name: e2e-kubernetes-1.27-kuma
+kind: pipeline
+type: docker
+
+depends_on:
+  - e2e-kubernetes-1.26-kuma
+
+platform:
+  os: linux
+  arch: amd64
+
+trigger:
+  ref:
+    include:
+      - refs/heads/master
+      - refs/tags/**
+      - refs/heads/hotfix-*
+
+steps:
+  - name: create-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    pull: always
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    depends_on: [clone]
+    environment:
+      CLUSTER_VERSION: v1.27.3
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-127
+      # /drone/src is the default workdir for the pipeline
+      # using this folder we don't need to mount another
+      # shared volume between the steps
+      KUBECONFIG: /drone/src/kubeconfig-127
+    commands:
+      # NOTE: kind's `--wait` flag that waits for the control-plane ot be ready
+      # does not work when disabling the default CNI. It will always go in timeout.
+      - kind create cluster --name $${CLUSTER_NAME} --image registry.sighup.io/fury/kindest/node:$${CLUSTER_VERSION} --config katalog/tests/kind-config.yml
+      # save the kubeconfig so we can use it from other steps.
+      - kind get kubeconfig --name $${CLUSTER_NAME} > $${KUBECONFIG}
+
+  - name: e2e-kuma-standalone
+    image: quay.io/sighup/e2e-testing:1.1.0_0.7.0_3.1.1_1.9.4_1.24.1_3.8.7_4.21.1
+    pull: always
+    network_mode: host
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-127
+      KUBECONFIG: /drone/src/kubeconfig-127
+    depends_on: [create-kind-cluster]
+    commands:
+      - bats -t katalog/tests/kuma-standalone/kuma-standalone-deploy.sh
+      - bats -t katalog/tests/kuma-standalone/kuma-demo-deploy.sh
+
+  - name: delete-kind-cluster
+    image: quay.io/sighup/dind-kind-kubectl-kustomize:0.20.0_1.29.1_3.10.0
+    volumes:
+      - name: dockersock
+        path: /var/run/docker.sock
+    pull: always
+    depends_on: [e2e-kuma-standalone]
+    environment:
+      CLUSTER_NAME: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-127
+    commands:
+      # does not matter if the command fails
+      - kind delete cluster --name $${CLUSTER_NAME} || true
+    when:
+      status:
+        - success
+        - failure
+
+volumes:
+  - name: dockersock
+    host:
+      path: /var/run/docker.sock
+
+---
+name: release
+kind: pipeline
+type: docker
+
+depends_on:
+  - e2e-kubernetes-1.24-kuma
+  - e2e-kubernetes-1.25-kuma
+  - e2e-kubernetes-1.26-kuma
+  - e2e-kubernetes-1.27-kuma
+
+platform:
+  os: linux
+  arch: amd64
+
+trigger:
+  ref:
+    include:
+      - refs/tags/**
+
+steps:
+
+  - name: prepare-tar-gz
+    image: alpine:latest
+    pull: always
+    depends_on: [clone]
+    commands:
+      - tar -zcvf fury-kubernetes-service-mesh-${DRONE_TAG}.tar.gz katalog/ LICENSE README.md
+    when:
+      ref:
+        include:
+          - refs/tags/**
+
+  - name: prepare-release-notes
+    image: quay.io/sighup/fury-release-notes-plugin:3.7_2.8.4
+    pull: always
+    depends_on: [clone]
+    settings:
+      release_notes_file_path: release-notes.md
+    when:
+      ref:
+        include:
+          - refs/tags/**
+
+  - name: publish-prerelease
+    image: plugins/github-release
+    pull: always
+    depends_on:
+      - prepare-tar-gz
+      - prepare-release-notes
+    settings:
+      api_key:
+        from_secret: github_token
+      file_exists: overwrite
+      files:
+        - fury-kubernetes-service-mesh-${DRONE_TAG}.tar.gz
+      prerelease: true
+      overwrite: true
+      title: "Preview ${DRONE_TAG}"
+      note: release-notes.md
+      checksum:
+        - md5
+        - sha256
+    when:
+      ref:
+        include:
+          - refs/tags/v**-rc**
+
+  - name: publish-stable
+    image: plugins/github-release
+    pull: always
+    depends_on:
+      - prepare-tar-gz
+      - prepare-release-notes
+    settings:
+      api_key:
+        from_secret: github_token
+      file_exists: overwrite
+      files:
+        - fury-kubernetes-service-mesh-${DRONE_TAG}.tar.gz
+      prerelease: false
+      overwrite: true
+      title: "Release ${DRONE_TAG}"
+      note: release-notes.md
+      checksum:
+        - md5
+        - sha256
+    when:
+      ref:
+        exclude:
+          - refs/tags/v**-rc**
+        include:
+          - refs/tags/v**
